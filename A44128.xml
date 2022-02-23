@@ -1,0 +1,1638 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A discourse concerning time with application of the natural day and lunar month and solar year as natural, and of such as are derived from them, as artificial parts of time, for measures in civil and common use : by William Holder.</title>
+            <author>Holder, William, 1616-1698.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1694</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 126 KB of XML-encoded text transcribed from 65 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A44128</idno>
+            <idno type="STC">Wing H2385</idno>
+            <idno type="STC">ESTC R30776</idno>
+            <idno type="EEBO-CITATION">11467423</idno>
+            <idno type="OCLC">ocm 11467423</idno>
+            <idno type="VID">47808</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A44128)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 47808)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1463:41)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A discourse concerning time with application of the natural day and lunar month and solar year as natural, and of such as are derived from them, as artificial parts of time, for measures in civil and common use : by William Holder.</title>
+                  <author>Holder, William, 1616-1698.</author>
+               </titleStmt>
+               <extent>[6], 120 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by J. Heptinstall for L. Meredith ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1694.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in the Harvard University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Time.</term>
+               <term>Calendar.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2008-11</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2008-12</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-02</date>
+            <label>John Pas</label>Sampled and proofread</change>
+         <change>
+            <date>2009-02</date>
+            <label>John Pas</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2009-09</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:47808:1"/>
+            <pb facs="tcp:47808:1" rendition="simple:additions"/>
+            <p>A DISCOURSE Concerning TIME, With Application of The <hi>Natural Day,</hi> and <hi>Lunar Month,</hi> and <hi>Solar Year,</hi> as <hi>Natural;</hi> And of ſuch as are derived from them, As <hi>Artificial Parts of Time,</hi> for <hi>Meaſures</hi> in Civil and Common Uſe: For the better underſtanding of The <hi>Julian</hi> Year and <hi>Calendar.</hi> THE <hi>Firſt Column</hi> alſo in our <hi>Church Calendar</hi> explained. With other <hi>Incidental Remarks.</hi>
+            </p>
+            <p>By <hi>WILLIAM HOLDER,</hi> D. D. Canon Reſidentiary of St. <hi>Paul</hi>'s, <hi>London;</hi> and Fellow of the <hi>Royal Society.</hi>
+            </p>
+            <p>
+               <hi>London,</hi> Printed by <hi>J. Heptinſtall,</hi> for <hi>L. Meredith,</hi> at the <hi>Star</hi> in St. <hi>Paul's</hi> Church-Yard. 1694.</p>
+         </div>
+         <div type="preface">
+            <pb facs="tcp:47808:2" rendition="simple:additions"/>
+            <pb facs="tcp:47808:2"/>
+            <head>THE PREFACE.</head>
+            <p>THE Reader is not to expect here an E<g ref="char:EOLhyphen"/>laborate, Methodi<g ref="char:EOLhyphen"/>cal, or Juſt Treatiſe, for the entertainment of the Learned; but will find a Collection of ſeveral Memoirs, ſuch as may be all of conſiderable uſe to thoſe who are not Proficients in this kind of Knowledge.</p>
+            <p>The Author, having caſually diſcourſed on the enſuing Heads, to one or two Ingenious young Gentlemen; and for their bet<g ref="char:EOLhyphen"/>ter
+<pb facs="tcp:47808:3"/>Comprehenſion, and Remem<g ref="char:EOLhyphen"/>brance, put many of them diſ<g ref="char:EOLhyphen"/>perſedly in Writing: He has now reviſed thoſe Papers, and enlarged them; Digreſſing ſome<g ref="char:EOLhyphen"/>times, and taking in ſome Aſtro<g ref="char:EOLhyphen"/>nomical, Chronological, and o<g ref="char:EOLhyphen"/>ther Remarks, very worthy and equally needfull to be known, though not ſo directly pertinent, or neceſſary to the Explication of the <hi>Julian</hi> Year, and <hi>Ec<g ref="char:EOLhyphen"/>cleſiaſtick Calendar;</hi> which was his chief Intention, but yet giving ſome light unto them.</p>
+            <p>He hath ſince been prevailed with to let them be publiſhed, as being thought profitable for the uſe of Younger Students, whereby to poſſeſs them with
+<pb facs="tcp:47808:3"/>ſome uſefull Notions; ſuch as may prepare and induce them, with more Pleaſure and Eaſe, to advance into the Study of deeper and larger Contemplati<g ref="char:EOLhyphen"/>ons of this kind.</p>
+            <p>And for the uſe alſo of ſuch as have not conſidered theſe things, but are content (for want of eaſie Introduction) to be ignorant, and careleſs, of this ſo neceſſary Knowledge (of whom there are too many to be found, the more the Pity:) That they (if they pleaſe) may ſee the Grounds of our <hi>Calendar,</hi> and Meaſures of <hi>Time;</hi> and know the Reaſon of the Diffe<g ref="char:EOLhyphen"/>rences between the <hi>Reformed Calendar,</hi> and our old <hi>Ju<g ref="char:EOLhyphen"/>lian,</hi>
+               <pb facs="tcp:47808:4"/>in reſpect of Accounts of the Progreſs of the whole <hi>Year,</hi> and of the <hi>Moveable Feaſts,</hi> &amp;c.</p>
+            <p>'Tis hoped alſo, This plain Diſcourſe may be uſefull to ma<g ref="char:EOLhyphen"/>ny of our <hi>Clergy,</hi> whom it concerns to have ſome know<g ref="char:EOLhyphen"/>ledge of theſe Matters.</p>
+         </div>
+         <div type="table_of_contents">
+            <pb facs="tcp:47808:4"/>
+            <list>
+               <head>CONTENTS.</head>
+               <item>
+                  <label>CHAP. I.</label> Of Meaſure in General, <hi>page 1,</hi> &amp;c. More particu<g ref="char:EOLhyphen"/>larly of Time; and Difficulties concerning it, <hi>p. 10.</hi>
+               </item>
+               <item>
+                  <label>CHAP. II.</label> Of the Sun's Motion; Meaſuring Days, and Years, <hi>page 22.</hi> And making them our ordinary Mea<g ref="char:EOLhyphen"/>ſures of Time, <hi>page 24.</hi> Difficulties of Account<g ref="char:EOLhyphen"/>ing by them, <hi>page 28.</hi> The Inequality of the Sun's Motion, and of the Solar Days, briefly mention<g ref="char:EOLhyphen"/>ed, <hi>ibid.</hi> From Day and Year other Meaſures de<g ref="char:EOLhyphen"/>rived, <hi>page 31.</hi> And their <g ref="char:V">Ʋ</g>ſefulneſs, <hi>ibid.</hi> and <hi>page 36.</hi> The Diviſion of a Circle into <hi>360</hi> De<g ref="char:EOLhyphen"/>grees, <hi>page 33.</hi>
+               </item>
+               <item>
+                  <label>CHAP. III</label> Of <hi>Epocha's,</hi> Cycles, or Periods, <hi>page 39.</hi> Of the <hi>Dionyſian</hi> Period, <hi>page 41.</hi> Of the Cycle of the Sun; and Changes of the Dominical Letter, <hi>p. 43.</hi> Containing alſo an Account of the Week, <hi>ibid.</hi> and <hi>Biſſextile, 45.</hi> With a Table of the Dominical Letter, <hi>(page 47,)</hi> &amp;c. Some other Periods; par<g ref="char:EOLhyphen"/>ticularly that called the <hi>Julian, page 48.</hi> The In<g ref="char:EOLhyphen"/>diction, <hi>page 49.</hi> Some principal <hi>Aera's</hi> and Peri<g ref="char:EOLhyphen"/>ods, with Tables reducing them to the Year of our Lord, <hi>page 52,</hi> &amp;c.</item>
+               <item>
+                  <label>CHAP. IV.</label> Of the Day, as applied to meaſure the Year, <hi>page 55.</hi> Different Accounts of Years among the Ancients, and Confuſed, <hi>page 57.</hi> The <hi>Julian</hi> Year, <hi>p. 58.</hi> Inequality of Natural Days, and Reaſons there<g ref="char:EOLhyphen"/>of, <hi>page 59.</hi> With a ſhort Table of Equation, <hi>p. 64.</hi>
+               </item>
+               <pb facs="tcp:47808:5"/>
+               <item>
+                  <label>CHAP. V.</label> The Deficiency of the <hi>Julian</hi> Year, and Calendar, <hi>p. 65.</hi> And from thence, Defects in our Eccleſiaſtical Com<g ref="char:EOLhyphen"/>putation; and, how to Reform it, <hi>page 67, 68.</hi>
+               </item>
+               <item>
+                  <label>CHAP. VI.</label> Of the Lunar Month, and Motion of the Moon; her Quarters, and Years, <hi>page 69. Epacts</hi> explain<g ref="char:EOLhyphen"/>ed, <hi>page 73.</hi> The Golden Number, <hi>page 75,</hi> &amp;c. Their <g ref="char:V">Ʋ</g>ſes, <hi>ibid.</hi> &amp;c. (with Tables, 79, 80.) and particularly in relation to the firſt Column of the Calendar in the Common-Prayer-Book, 81, 85, (and 96.) Several Difficulties about it reſol<g ref="char:EOLhyphen"/>ved, <hi>page 88,</hi> &amp;c. Imperfections and Intricacies in theſe Accounts, <hi>page 90.</hi>
+               </item>
+               <item>
+                  <label>CHAP. VII.</label> An Important Defect in Eccleſiaſtical Computations by the <hi>Nicene</hi> Rule, ariſing from hence; that the Golden Number does not exactly meaſure the Moon's Cycle, <hi>page 92.</hi> The Sun's Account above ten days too late, and the Moon's above four, and needs Rectification, <hi>page 94.</hi>
+               </item>
+               <item>
+                  <label>CHAP. VIII.</label> Concluſion; containing ſome ſhort Obſervations, and Practical Deductions, <hi>page 97.</hi> With a brief Account of the Author's <hi>New Hypotheſis,</hi> concern<g ref="char:EOLhyphen"/>ing the <hi>Natural Production</hi> and <hi>Differences of the Letters of the Alphabet;</hi> relating to a Trea<g ref="char:EOLhyphen"/>tiſe formerly Publiſhed by him, <hi>Of the Elements of Speech,</hi> page <hi>105,</hi> &amp;c. Of which the <hi>Con<g ref="char:EOLhyphen"/>tents</hi> alſo are annexed, <hi>page 111.</hi>
+               </item>
+            </list>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:47808:5"/>
+            <head>A DISCOURSE Concerning TIME, &amp;c.</head>
+            <div n="1" type="chapter">
+               <head>CHAP. I..</head>
+               <argument>
+                  <p>
+                     <hi>Of Meaſure in General. § More par<g ref="char:EOLhyphen"/>ticularly of Time; and Difficulties con<g ref="char:EOLhyphen"/>cerning it.</hi>
+                  </p>
+               </argument>
+               <p>GOD made all things in Number, Weight, and Mea<g ref="char:EOLhyphen"/>ſure; and gave them to be conſidered by us according to theſe Properties, which are inherent in Cre<g ref="char:EOLhyphen"/>ated Beings. But without an Act of the Rational Soul, comparing theſe, in their ſeveral kinds, one to another; they would be as nothing. And there<g ref="char:EOLhyphen"/>fore
+<pb n="2" facs="tcp:47808:6"/>the ancient Greeks very fitly ter<g ref="char:EOLhyphen"/>med the Habitude of any one of theſe to another of the ſame kind, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, the <hi>Ratio</hi> of it; becauſe it is our Ra<g ref="char:EOLhyphen"/>tional Notion of their Equality, or Difference, when we apply one Num<g ref="char:EOLhyphen"/>ber, or Weight, or Meaſure to ano<g ref="char:EOLhyphen"/>ther of the ſame kind, and conſider, and compute, what Proportion one bears to the other.</p>
+               <p>It cannot be expreſſed, what uni<g ref="char:EOLhyphen"/>verſal and neceſſary Uſe there is of the Conſideration of Number, Weight, and Meaſure, in Common Life. Not to ſpeak of Order, and Beauty, which conſiſt of Symmetry; nor of Building Houſes, and Ships: all humane Society is upheld and ma<g ref="char:EOLhyphen"/>naged by the uſe of theſe. No Com<g ref="char:EOLhyphen"/>merce, or Exchange, or Trade, can be without them; and conſequently, no Benefit of Society.</p>
+               <p>And therefore, the Sagacity of Learned Men has advanced Arts and
+<pb n="3" facs="tcp:47808:6"/>Sciences, for the better knowledge and uſe of them. For Number, Arith<g ref="char:EOLhyphen"/>metick; for Weight, Staticks; and for Meaſure, Geometry. And for finding out the Original Meaſures of Time (of which I ſhall have occaſi<g ref="char:EOLhyphen"/>on to ſpeak) Aſtronomy. All Mag<g ref="char:EOLhyphen"/>nitudes are capable of being meaſu<g ref="char:EOLhyphen"/>red; but it is the application of one to another, which makes Actual Mea<g ref="char:EOLhyphen"/>ſures; and Things Actually meaſu<g ref="char:EOLhyphen"/>red.</p>
+               <p>Meaſures ought to be Stated and known before they be applied to meaſure other Quantities. A Meaſure therefore has reference to ſomething that is or may be meaſured by it, with application of the Mind. Any given Length of a known Line, un<g ref="char:EOLhyphen"/>der a certain Denomination, may ſerve to meaſure out any other Length, be it Equal, or Unequal. A Concave Meaſure, of known and de<g ref="char:EOLhyphen"/>nominated Capacity, ſerves to mea<g ref="char:EOLhyphen"/>ſure
+<pb n="4" facs="tcp:47808:7"/>the Capaciouſneſs of any other Veſſel: In like manner, To a given Weight, the Weight of all other Bo<g ref="char:EOLhyphen"/>dies may be reduced; and ſo found out. And Number, in its way, mea<g ref="char:EOLhyphen"/>ſures them all.</p>
+               <p>We may meaſure any Quantity, by any other known Meaſure of the ſame kind. But Meaſures that are moſt fitting to be applied in this man<g ref="char:EOLhyphen"/>ner for common uſe, ought to be ta<g ref="char:EOLhyphen"/>ken from ſome Certain Quantity uni<g ref="char:EOLhyphen"/>verſally known; ſo that every one may have ſome Idea of that Meaſure, though perhaps not perfect.</p>
+               <p>If we would meaſure any Length, Breadth, Depth, Height, or Diſtance; by a Line, Real, or Imaginary, be<g ref="char:EOLhyphen"/>tween the two extreme Terms, <hi>A quo,</hi> and <hi>Ad quem:</hi> we muſt apply ſome known Meaſure, wherewith to mete it.</p>
+               <p>For ſuch a known Meaſure, the An<g ref="char:EOLhyphen"/>cients had recourſe to ſome Original
+<pb n="5" facs="tcp:47808:7"/>Patterns in Nature, ſufficiently known; As, chiefly, to the Stature of Humane Body; and, for Variety of Meaſures, to Parts of it, reconciling them one to another, by aſſigning agreeable pro<g ref="char:EOLhyphen"/>portions of the Whole to its Parts, ſomewhat near Truth, to make them Originals, for Authentick and Uſefull Meaſures. The Parts were eſpecially, The Arm, Hand, and Foot. The Arms, ſpread croſs in a ſtreight Line, and meaſured from the end of the long Finger on one Hand, to that of the other; made a Meaſure equal to the Stature, and is named a Fathom. Half of that, <hi>viz.</hi> from the end of the long Finger of either Arm, ſo ſpread, to the middle of the Breaſt is, with us, called a Yard. From the tip of the Elbow, to the end of the long Finger, is half a Yard, and a quarter of the Stature, and makes a Cubit; the firſt Meaſure we read of, the Ark of <hi>Noah</hi> being Framed and
+<pb n="6" facs="tcp:47808:8"/>Meaſured by Cubits. A Foot (the Length of it) is a ſixth part of the Stature, and a Meaſure much uſed. A Span, ⅛ of it. A Palm, or Hand's breadth, 1/24: A Thumb's breadth, or Inch, 1/72: A Fore-finger's breadth, 1/96: And other ſuch Meaſures. Now, tho' all theſe may not be found exactly in thoſe Proportions; yet, to ſuppoſe them ſuch, makes them fit Patterns of Meaſure, being made Commenſu<g ref="char:EOLhyphen"/>rate: The leſs being <hi>aliquot</hi> Parts, or compoſed of <hi>aliquot</hi> Parts, of the greater.</p>
+               <p>Then, Meaſuring Land, by walk<g ref="char:EOLhyphen"/>ing over it, they ſtyled a Double-ſtep (<hi>i. e.</hi> the Space from the elevati<g ref="char:EOLhyphen"/>on of one Foot, to the ſame Foot ſet down again, mediated by a ſtep of the other Foot) a Pace, equal to 5 Foot; a Thouſand of which Paces made a Mile, which is a Meaſure ſerving for any diſtance on Earth, and even for the Height of the Sphears.</p>
+               <pb n="7" facs="tcp:47808:8"/>
+               <p>Likewiſe for ſmall Meaſures, they conſidered a Barley-corn; the Breadth of it ⅛ of an Inch, and the Length ⅓: And leſs than that, The Breadth of an Horſe's-hair taken from the Mane, 48 whereof ſet in Breadth, are ſup<g ref="char:EOLhyphen"/>poſed to make an Inch.</p>
+               <p>Theſe are Originals; from theſe our Meaſures of Length are taken: but I cannot call them Standards; for Standard Meaſures muſt be Cer<g ref="char:EOLhyphen"/>tain and Fixed; and are made by Conſent and Authority of every Na<g ref="char:EOLhyphen"/>tion for it ſelf, and the People in it. For though the Meaſures before ſpo<g ref="char:EOLhyphen"/>ken of be known to all, and give a groſs Conception of all Meaſures de<g ref="char:EOLhyphen"/>rived from the Natural Inch, Foot, Cu<g ref="char:EOLhyphen"/>bit, <hi>&amp;c.</hi> yet they cannot be ſo exact<g ref="char:EOLhyphen"/>ly ſtated, but you muſt imagine a great Inequality, if every Man ſhould meaſure from his own Thumb, Foot, or Cubit. And therefore ſeveral Na<g ref="char:EOLhyphen"/>tions (though intending to follow a
+<pb n="8" facs="tcp:47808:9"/>mean) happen to pitch upon ſeve<g ref="char:EOLhyphen"/>ral Sizes of theſe parts of Man: and conſequently, though they keep the ſame Denominations and reſpe<g ref="char:EOLhyphen"/>ctive Proportions of theſe Meaſures; yet the Inch, and Foot, and Cubit, of ſeveral Nations, become to be ſomewhat different from each other: As, <hi>e. gr.</hi> The Engliſh Foot is ſome<g ref="char:EOLhyphen"/>what ſhorter than the Pariſian, and longer than the Roman Foot.</p>
+               <p>And therefore the Conſent, and Government of each Nation Enact by Authority of Laws, what ſhall be accounted the Meaſure of a Foot, and of the reſt proportionably; and make Authentick Models of thoſe Meaſures to be publickly kept, and be the Standard of all private Mea<g ref="char:EOLhyphen"/>ſures of the ſame kind, and by which every Man under that Government is to guide himſelf.</p>
+               <p>And thus it is in Weights. They began at a known Body, a Barley-corn,
+<pb n="9" facs="tcp:47808:9"/>the Weight whereof is therefore called a Grain; which ariſeth, being multiplied, to Scruples, Drachms, Ounces, Pounds, <hi>&amp;c.</hi> and then thoſe Weights, (as they happen to take them) are fixed by Authority, and Exemplars of them publickly kept.</p>
+               <p>And it is the like in Concave mea<g ref="char:EOLhyphen"/>ſures. The capacity of the Shell of a midling Hen's-egg, may be the Ori<g ref="char:EOLhyphen"/>ginal from whence Pint, Quart, Gal<g ref="char:EOLhyphen"/>lon, <hi>&amp;c.</hi> are made Patterns for all Capacious meaſures; and their au<g ref="char:EOLhyphen"/>thentick Fabricks ſtored in Public for every one to make his Meaſures by, and by which to have them exa<g ref="char:EOLhyphen"/>mined.</p>
+               <p>Now although (in theſe Inſtances) a Hair, and Barley-corn, and Humane Body, and a Hen's-egg, be truly Ori<g ref="char:EOLhyphen"/>ginal and Radical Meaſures, univer<g ref="char:EOLhyphen"/>ſally known; and ſo give us a groſs Idea of thoſe other ſtated Meaſures de<g ref="char:EOLhyphen"/>rived from them; yet theſe cannot be
+<pb n="10" facs="tcp:47808:10"/>ſtyled Standard-meaſures, becauſe they are not univerſally fixed, but are Unequal amongſt themſelves, and unequally taken by ſeveral Nations. But Standard-meaſures are National, taken from thoſe Originals (with ſuch Diverſities as ſhall happen) and con<g ref="char:EOLhyphen"/>ſtituted, as every Government ſhall think fit to Ordain, and make known unto their Subjects. The Original-meaſures are found in Nature, not accurately fixed, but ſubject to ſome variety: The Standard-meaſures ta<g ref="char:EOLhyphen"/>ken from them, with ſome Analogy to them, are firmly ſetled by Conſent and by Authority, with ſome diverſi<g ref="char:EOLhyphen"/>ty in the ſeveral National Eſtabliſh<g ref="char:EOLhyphen"/>ments.</p>
+               <p>This is premiſed, for the better Clearing of that which is my more proper Subject, <hi>The Meaſures of Time.</hi> For which, becauſe we do not find a<g ref="char:EOLhyphen"/>ny Univerſally known, and Imitable Original here below on the Earth,
+<pb n="11" facs="tcp:47808:10"/>becauſe it is of a different and more ſubtil nature, than thoſe other afore<g ref="char:EOLhyphen"/>ſaid Meaſures; we muſt therefore ſeek above, and have recourſe to the Motions of the Celeſtial Bodies; rec<g ref="char:EOLhyphen"/>koning our Time by numbring the ſucceſſive parts of thoſe Motions; and herein, if we will be accurate, we may take the moſt Equal Motion, by which to Meaſure; <hi>viz.</hi> That of the <hi>Primum Mobile.</hi> But that being diffi<g ref="char:EOLhyphen"/>cult to meaſure, we do, and may beſt take our Meaſures for common uſe from thoſe Heavenly Bodies, which carry Light along with them, to guide us in the obſervation of their Moti<g ref="char:EOLhyphen"/>ons. And thoſe are (moſt eminent<g ref="char:EOLhyphen"/>ly) the two great Luminaries, the Sun, and the Moon. The Diurnal, and Annual Revolutions of the Sun, which to us are the Meaſures of Day, and Year; and the Synodic Rovolution of the Moon, by which the Month is meaſured. Theſe Motions are, to us,
+<pb n="12" facs="tcp:47808:11"/>the Original and Radical Meaſures of Time. And the Day, Month, and Year; meaſured by them, and beſt known to us, are uſed as Standard-meaſures; as likewiſe others Arbitrari<g ref="char:EOLhyphen"/>ly, and Artificially deduced from them, by Partition, or Collection, and be<g ref="char:EOLhyphen"/>ing reducible to them: as, Minute, Hour, Week, Month of Weeks, Solar-month, <hi>&amp;c.</hi>
+               </p>
+               <p>As if it be asked, How much is the Length, Breadth, Height, Depth, or Diſtance of any thing given? I muſt anſwer, (not by the Original, but by the aforeſaid Known, Denominated Standard-meaſures) ſo many Inches, Foot, Cubits, Fathoms, Furlongs, Miles, <hi>&amp;c.</hi> as the Quantity propoſed ſhall require. So if I be asked con<g ref="char:EOLhyphen"/>cerning Duration; How long is the Age of a Man? The common An<g ref="char:EOLhyphen"/>ſwer muſt be (with the Pſalmiſt) <hi>Threeſcore Years and Ten;</hi> which are indeed meaſured by the Time, ſo
+<pb n="13" facs="tcp:47808:11"/>long as the Sun is in making ſeven<g ref="char:EOLhyphen"/>ty Revolutions round the Ecliptic; which Revolutions we, by Divine and Humane Authority, call Years, as a Stated Meaſure of Time, by which we keep our Accounts. And in the ſame manner, leſs Durations are mea<g ref="char:EOLhyphen"/>ſured by Months, or Weeks, or Days: And if they be yet leſs, Then by the Parts of a Day, <hi>viz.</hi> Hours, Mi<g ref="char:EOLhyphen"/>nutes, <hi>&amp;c.</hi>
+               </p>
+               <p>The Celeſtial Motions numbred by an Act of the Mind, as the Parts of them ſucceed one another <hi>ſecun<g ref="char:EOLhyphen"/>dùm prius &amp; poſterius,</hi> are the Original Meaſures of Time; and by help of the Lights in the Firmament, are ſo perceptible, and eaſily known to us by the Interchanges of Light and Darkneſs, and Succeſſion of Seaſons, and Termination of Revolutions, and the manifeſt Effects of them: that from thence we have a more Famili<g ref="char:EOLhyphen"/>ar, Secondary Meaſure of Time, a
+<pb n="14" facs="tcp:47808:12"/>kind of Standard meaſure of all other Motions, or Reſt, or Duration, allu<g ref="char:EOLhyphen"/>ding to thoſe other Standard-meaſures ſpoken of before (but with ſome Dif<g ref="char:EOLhyphen"/>ferences which I ſhall touch upon.) And theſe are principally, the Day, the Lunar Month, and the Year.</p>
+               <p>I do not intend to fall upon nice, Philoſophical Diſquiſitions about the Nature of Time, and Curious Queſti<g ref="char:EOLhyphen"/>ons relating to it: But upon the Uſe of it, <hi>in Vitâ communi;</hi> from the viſible Secondary Meaſures thereof, agreed up<g ref="char:EOLhyphen"/>on, and practiſed, according to both Divine and Humane Inſtitution.</p>
+               <p>If the Revolution of the <hi>Primum Mobile</hi> be (to the Curious) the firſt Equal Standard-meaſure of Time, and we may have ſuch a Conception of it; yet I ſee not how we can ſo eaſi<g ref="char:EOLhyphen"/>ly diſcern, and uſefully apply this Mo<g ref="char:EOLhyphen"/>tion, as a Meaſure of Time; but re<g ref="char:EOLhyphen"/>motely by the guidance of the Lights in the Firmament. For the Light of
+<pb n="15" facs="tcp:47808:12"/>thoſe Bodies doth immediately diſco<g ref="char:EOLhyphen"/>ver to us the Succeſſion of their own Motion; and Mediately that of the <hi>Primum Mobile,</hi> whoſe Parts are num<g ref="char:EOLhyphen"/>bred upon the Degrees of the <hi>Aequator.</hi> Where we treat more generally of Time, the neareſt and eaſieſt way is, to be guided immediately by thoſe Lights; and make the Day, and Month, and Year, our Meaſures of Time.</p>
+               <p>And as all other Meaſures of Time are reducible to theſe Three, ſo we labour to reduce theſe Three (though ſtrictly of themſelves Incommenſu<g ref="char:EOLhyphen"/>rate) to one another, for Civil uſe, meaſuring the greater by the leſs, <hi>viz.</hi> the Year by Months, and the Year and Month by Days, and Parts of Days: So that they may be indiffe<g ref="char:EOLhyphen"/>rently uſed as one agreeable Meaſure of Time, greater or leſs, as there may be occaſion to apply the Mea<g ref="char:EOLhyphen"/>ſure.</p>
+               <pb n="16" facs="tcp:47808:13"/>
+               <p>There is a great Difference, which renders the Account of the Meaſures of Time to be of much more difficult and curious Contemplation, than the other; becauſe the other Original Mea<g ref="char:EOLhyphen"/>ſures are to be found every where on Earth, and the Standards of them Ar<g ref="char:EOLhyphen"/>bitrary; whereas both Original, and what we may call Standard-meaſures of Time, are above in the Heavenly Sphears. And becauſe the other Mea<g ref="char:EOLhyphen"/>ſures, before ſpoken of, are of Conti<g ref="char:EOLhyphen"/>nued Quantity, Permanent, and Viſible, and for the moſt part Tractable; whereas Time is always Tranſient, in a continual Flux, neither to be ſeen, nor felt, nor reſerved; but only mea<g ref="char:EOLhyphen"/>ſured by an Act of the Mind, by Ob<g ref="char:EOLhyphen"/>ſervation, and Application of thoſe Motions which are the Meaſures of it: We cannot keep by us ſettled and Permanent Material Standards of the Meaſures of Time, as we do of the other.</p>
+               <pb n="17" facs="tcp:47808:13"/>
+               <p>There is another Difference. That the Heavenly Motions, (though intri<g ref="char:EOLhyphen"/>cate) are more Stated and Certain, than the Terreſtrial Models of the Meaſure of thoſe other Quantities be<g ref="char:EOLhyphen"/>fore diſcourſed of, and are indeed both Originals, and Standards. And, if we will alſo call the Day, and Year, Standard Meaſures, it is becauſe they are Unalterably Conſtituted by thoſe Motions, and are better known to us, whilſt we follow that Light which goes along with thoſe moving Bo<g ref="char:EOLhyphen"/>dies; and becauſe they have ſome Stamp of Authority from the Almigh<g ref="char:EOLhyphen"/>ty Lord of Heaven and Earth, and from Regulations of the Calendar by Public Authority in ſeveral Govern<g ref="char:EOLhyphen"/>ments.</p>
+               <p>And though, from the former of theſe Differences, I conceive, we can<g ref="char:EOLhyphen"/>not ſo properly call the Celeſtial Mo<g ref="char:EOLhyphen"/>tions, Standard Meaſures; becauſe we cannot make any ſuch Standing Mea<g ref="char:EOLhyphen"/>ſures
+<pb n="18" facs="tcp:47808:14"/>to be reſerved, and kept for Pub<g ref="char:EOLhyphen"/>lic Uſe, and produced when we pleaſe, that they may be reſorted unto, and applied to the Meaſures which are u<g ref="char:EOLhyphen"/>ſed; as is done in the Material Stan<g ref="char:EOLhyphen"/>dard Meaſures, and Weights; as Yard, Gallon, Pound, <hi>&amp;c.</hi> Yet from their Certainty (which is the other Difference) we may in ſome manner look upon them as a kind of Stan<g ref="char:EOLhyphen"/>dard Meaſures; becauſe all Meaſures of Time are reduced to thoſe we commonly uſe: But they are impro<g ref="char:EOLhyphen"/>perly called Standards, becauſe (as was ſaid) they cannot be made Stan<g ref="char:EOLhyphen"/>ding Meaſures; for to be ſuch does not comport with the Nature of Time.</p>
+               <p>I had rather call them <hi>Stated</hi> Mea<g ref="char:EOLhyphen"/>ſures; and we may conceive them to correſpond with, and ſupply the uſe of thoſe other kinds of Standard Mea<g ref="char:EOLhyphen"/>ſures: and having alſo ſome Stamp of Authority, by which they are Set<g ref="char:EOLhyphen"/>led,
+<pb n="19" facs="tcp:47808:14"/>and Stated, ſomething alſo diffe<g ref="char:EOLhyphen"/>rent from Nature.</p>
+               <p>For, as was ſaid of Meaſures of Length, and of Capaciouſneſs, and likewiſe of Weights: So here alſo, the Meaſures of Time, are (in their way) ſubjected more or leſs to Civil Sancti<g ref="char:EOLhyphen"/>on. Thus in <hi>Rome</hi> (not to ſpeak of other Nations) <hi>Romulus,</hi> and <hi>Numa,</hi> and, after them, <hi>Julius Caeſar,</hi> Ordered, and Conſtituted the Account, and Computation of Years, and Months; which laſt Order we of <hi>England</hi> ſtill follow, though in long Tract of Time, ſome Anomalies are crept in, which makes our Calendar vary from the true Account of Time.</p>
+               <p>There is one remarkable Inſtance of this, how we meaſure our Time by Law, and not by Nature, and that is the Solar Month; which tho' it be no Periodical Motion, and not eaſily Menſurable, and the Months unequal amongſt themſelves, and not
+<pb n="20" facs="tcp:47808:15"/>to be meaſured by Even Weeks, or Days; as naturally conſiſting, accord<g ref="char:EOLhyphen"/>ing to the Mean Motion of the Sun, of 30 Days, 10 Hours, and near half an hour: Yet by Civil Sanction, and Conſtitution, this is made to us, the chiefeſt Meaſure of the Year. And theſe Months are meaſured by In<g ref="char:EOLhyphen"/>teger Days, though unequally; ſome by 31 days, ſome by 30, and one by 28, and every fourth Year, by 29. This Solar Month, I ſay, is by Civil Sanction and Authority, notified in Authentic Calendars, made for our uſe the chief Meaſure of the Year: a kind of Standard, by which we mea<g ref="char:EOLhyphen"/>ſure out our Time. But theſe Months do not ſo much come under my Con<g ref="char:EOLhyphen"/>ſideration; but more properly, in or<g ref="char:EOLhyphen"/>der to Eccleſiaſtical Computations, the Lunar Month; which is Natural, and Periodical, and by which the Moveable Feſtivals of the Chriſtian Church are regulated.</p>
+               <pb n="21" facs="tcp:47808:15"/>
+               <p>We read in <hi>Moſes, That God crea<g ref="char:EOLhyphen"/>ted Lights in the Firmament of Heaven, to divide the Day from the Night, and appointed them for Signs, and for Seaſons, and for Days, and for Years.</hi> Gen. 1.14.</p>
+               <p>The viſible Motions of all the o<g ref="char:EOLhyphen"/>ther Lights of Heaven might afford us ſeveral Meaſures of Time, if we could number them. But becauſe moſt of thoſe Motions are not ſo evi<g ref="char:EOLhyphen"/>dent to us, and the great Lights are ſufficient, and ſerve alſo to meaſure even the Motions of thoſe other; we therefore, following the Guidance and declared Deſign of the Almighty Pro<g ref="char:EOLhyphen"/>vidence, deduce our Meaſures of Time from the ſucceſſive Motions of the Sun and Moon, and moſt from the Sun: Both of them having Signal Motions, and giving ſenſibly Appa<g ref="char:EOLhyphen"/>rent Signs; the Sun of Seaſons, and of Light and Darkneſs, <hi>i.e.</hi> of Years, and of Days; The Moon of her change<g ref="char:EOLhyphen"/>able Habitudes to the Sun, and conſe<g ref="char:EOLhyphen"/>quently
+<pb n="22" facs="tcp:47808:16"/>of her Phaſes, or different Ap<g ref="char:EOLhyphen"/>pearances to us, and of her Seaſons. For ſhe makes alſo four Quarterly Seaſons within her little Year, or Month of Conſecution. I need not add, how Generally, and how Much, thoſe Quarterly Seaſons of the Moon are obſerved.</p>
+            </div>
+            <div n="2" type="chapter">
+               <head>CHAP. II.</head>
+               <argument>
+                  <p>
+                     <hi>Of the Sun's Motion; Meaſuring Days, and Years: and making them our Ordi<g ref="char:EOLhyphen"/>nary Meaſures of Time. § Difficulties of Accounting by them. § The Inequa<g ref="char:EOLhyphen"/>lity of the Sun's Motion, and of Solar Days briefly mentioned. ſect; From Day and Year other Meaſures derived. § And their Uſefulneſs. § The Diviſion of a Circle into 360 Degrees.</hi>
+                  </p>
+               </argument>
+               <p>WHether the Sun actually moves out of his place, or elſe is fixed upon his own Center, and only ſeems to move, and the Motions be attributed to the Earth, after the <hi>Co<g ref="char:EOLhyphen"/>pernican</hi>
+                  <pb n="23" facs="tcp:47808:16"/>way; which of late is more generally favoured, becauſe it does much better, and more eaſily ſolve all the <hi>Phaenomena:</hi> Yet it is ſtill the Sun, which (according to the Scrip<g ref="char:EOLhyphen"/>ture) by his Light governs the Day, and by his Light and Heat makes the Seaſons of the Year; and terminates to us, and diſcovers unto us the Re<g ref="char:EOLhyphen"/>volutions of the Earth, (ſuppoſing the Motion thereof) both in it ſelf, and alſo about the Sun. And it is all one, as to our Sight, and Calcu<g ref="char:EOLhyphen"/>lation of Time, whether the Motion be attribured to the Earth, or to the Sun: As the Diſtance is ſtill the ſame, whether we fanſie the Shore to recede from the Ship, or the Ship to move from the Shore.</p>
+               <p>I ſhall therefore in this Diſcourſe, (becauſe of Prepoſſeſſion of the one, and Prejudice againſt the other) ſup<g ref="char:EOLhyphen"/>poſe the Sun to move according to the <hi>Ptolemaic</hi> Syſtem.</p>
+               <pb n="24" facs="tcp:47808:17"/>
+               <p>Firſt then, from the Motions of the Sun, as Original Meaſures, are conſtituted for our uſe, Two moſt Signal, Univerſal, Natural, Diſtinct, Perceptible Meaſures of Time; which are as Standards for us Mortals to meaſure our Time by: And theſe are, the Day, and the Year.</p>
+               <p>The Day, <hi>i. e.</hi> the Natural Day, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, though it be accounted in General to be meaſured by one whole Revolution of the <hi>Primum Mobile,</hi> and with it of the Equator, upon the <hi>Axis</hi> of the World: Yet more preciſely, and truly, it is meaſured by the Re<g ref="char:EOLhyphen"/>volution of the Sun, carried along with the Motion of the <hi>Primum Mobi<g ref="char:EOLhyphen"/>le,</hi> upon the ſame <hi>Axis,</hi> either in the Equator, or in leſs Circles, very near Parallel to the Equator, which are therefore called Parallels.</p>
+               <p>For the Day, being viſibly govern<g ref="char:EOLhyphen"/>ed by the Sun, is a little longer than the Revolution of the Equator: ſo
+<pb n="25" facs="tcp:47808:17"/>much, as is occaſioned by the Ad<g ref="char:EOLhyphen"/>vance of the Sun in his Annual con<g ref="char:EOLhyphen"/>trary Motion along the Ecliptic, in that Space of Time; which is about one Degree of the Ecliptic, and which the Sun paſſeth in about four minutes of an hour.</p>
+               <p>I ſay, the Solar Day, from the Me<g ref="char:EOLhyphen"/>ridian of a Place on Earth, round to the ſame Meridian again, is a little longer than the ſame Revolution of the Equator: <hi>viz.</hi> ſo much longer, as the ſame Point of the Equator is re<g ref="char:EOLhyphen"/>turned ſooner to the ſame Meridian, than is the Sun; which in that Space of time, by his Annual contrary Mo<g ref="char:EOLhyphen"/>tion Eaſtward, will be advanced near a Degree of the Ecliptic, croſs to the Motion of the Equator.</p>
+               <p>As, ſuppoſe the Sun to be in the firſt Point of <hi>Aries, i. e.</hi> in the Equi<g ref="char:EOLhyphen"/>noctial; then, by what time the firſt Point of <hi>Aries</hi> will be carried round with the Diurnal Motion of the
+<pb n="26" facs="tcp:47808:18"/>World, contrary to the Order of Signs, from one Meridian to the ſame again: In that time the Sun will be advanced, as was ſaid, near one De<g ref="char:EOLhyphen"/>gree of <hi>Aries,</hi> contrary to the other Motion; and ſo will be found di<g ref="char:EOLhyphen"/>ſtant from the ſaid firſt Point, about a Degree, and will require about four minutes of an hour, to be brought back, by the Motion of the <hi>Primum Mobile,</hi> to the ſame Meridian: <hi>i. e.</hi> The firſt Point will return to the Meridi<g ref="char:EOLhyphen"/>an ſooner by about four minutes of an hour, than the firſt Degree of <hi>A<g ref="char:EOLhyphen"/>ries,</hi> whereabout the Sun will be found at that time. And ſo much the Sun's Diurnal Motion is longer than the Re<g ref="char:EOLhyphen"/>volution of the Equator.</p>
+               <p>As a Natural Day is meaſured by the Revolution of the Sun, from any one Meridian to the ſame Meridian again; So a Year is meaſured by the Motion of the Sun round the Ecliptic, upon the <hi>Axis</hi> of the ſame, from one
+<pb n="27" facs="tcp:47808:18"/>Point of the Ecliptic (ſuppoſe from the firſt Point of <hi>Aries</hi>) to the ſame Point again: And this Revolution is performed Obliquely, and Contrary to the other; ſo that the Day and Year ſeem not to correſpond with, or regard each other.</p>
+               <p>The Year is meaſured to us by the Revolution of the Sun in the Ecliptic; The Day by his Motion in, or Paral<g ref="char:EOLhyphen"/>lel with the Equator: The Year by the Sun's Motion Eaſtward <hi>in Conſe<g ref="char:EOLhyphen"/>quentia,</hi> or, <hi>ſecundùm Seriem Signo<g ref="char:EOLhyphen"/>rum;</hi> The Day by his Motion Weſt<g ref="char:EOLhyphen"/>ward <hi>in Antecedentia,</hi> or, <hi>contra Seriem Signorum.</hi>
+               </p>
+               <p>The Day is no <hi>aliquot</hi> part of the Year (ſtrictly ſpeaking) neither to Compound, or Divide the Year, ſo much as by Units. If the Year com<g ref="char:EOLhyphen"/>prehend Days, it is but as any Great<g ref="char:EOLhyphen"/>er Space of Time may be ſaid to comprehend a Leſs, though the Leſs Space be Incommenſurate to the Greater.</p>
+               <pb n="28" facs="tcp:47808:19"/>
+               <p>And from theſe differing Proper<g ref="char:EOLhyphen"/>ties of Day and Year, ariſe Difficul<g ref="char:EOLhyphen"/>ties in carrying on and reconciling the Supputations of Time, eſpecially in long Meaſures. Although it muſt be confeſſed, that for Vulgar Uſe, where is no need of, or regard to Exact Cal<g ref="char:EOLhyphen"/>culation; we have no better Meaſure of a ſingle Year, than the Day, and the Artificial Solar Month, conſiſting of Even Days: Becauſe the Succeſſi<g ref="char:EOLhyphen"/>on of Days is ſo viſible, and ſo eaſi<g ref="char:EOLhyphen"/>ly Numbred, that by theſe we may keep as good an Account of the Year, as is needfull to our Common Occa<g ref="char:EOLhyphen"/>ſions.</p>
+               <p>But if we thus meaſure many Ages of Years by Even Days, our Com<g ref="char:EOLhyphen"/>putation will be perplexed.</p>
+               <p>For the Year (without regard to Days) ends, and is terminated with an odd day, and odd hours, and odd minutes, and odd ſecond mi<g ref="char:EOLhyphen"/>nutes; if we go no farther: So that
+<pb n="29" facs="tcp:47808:19"/>it cannot be meaſured by any even Number of Days, or Hours, or Mi<g ref="char:EOLhyphen"/>nutes.</p>
+               <p>The Circle of Degrees in the Eclip<g ref="char:EOLhyphen"/>tic, which make a Year, are 360; the Circle of Days within a Year is broken into 365, and almoſt a Quarter. The Sun is carried round the World backward (the daily Mo<g ref="char:EOLhyphen"/>tion compared with the Annual) 365 times, and almoſt a Quarter, while he makes his own Round forwards of 360 Degrees of the Ecliptic: So no Circle of Even Days can make a Year; which (as was ſaid) creates difficulty in keeping account of Years.</p>
+               <p>And the very Steps which the Sun appears to us to make through the Ecliptic, are Unequal; as alſo the Days, if one be compared to another ſucceſſively throughout the Year, are found not to be Equal, and will not juſtly correſpond with any Artifici<g ref="char:EOLhyphen"/>al, or Mechanic Equal Meaſures of
+<pb n="30" facs="tcp:47808:20"/>Time; as by Watch, Clock, <hi>&amp;c.</hi>
+               </p>
+               <p>So that we are to find out the Extre<g ref="char:EOLhyphen"/>mities on both Sides, and from, and be<g ref="char:EOLhyphen"/>tween them, the Midle dayly Motions of the Sun along the Ecliptic; and to frame Tables of Equation of Natural days to be applied to the mean Moti<g ref="char:EOLhyphen"/>on, by Addition, or Subtraction, as the Caſe ſhall require: which are ſty<g ref="char:EOLhyphen"/>led <hi>Proſthaphaereſes;</hi> The Greek word <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> being fitted to compre<g ref="char:EOLhyphen"/>hend both addition and subtraction.</p>
+               <p>The Day is limited to us by the In<g ref="char:EOLhyphen"/>terchanges of Light and Darkneſs; and the Year by the ſucceſſive Seaſons of Winter, Spring, Summer, and Autumn: And theſe are Signal and Certain (tho' not Original) Meaſures of Time, con<g ref="char:EOLhyphen"/>ſtituted by the Revolutions, and ma<g ref="char:EOLhyphen"/>nifeſted to us by the Light of the Sun. And we have no other Meaſure, (ſave one of the Moon) but are, as we ſay, Artificially made out of theſe by Com<g ref="char:EOLhyphen"/>pounding or Dividing them. No o<g ref="char:EOLhyphen"/>ther
+<pb n="31" facs="tcp:47808:20"/>Meaſure of Time deduced from any other Original than the Motion of the Sun, can be ſo evident to us: For theſe are apparent, at leaſt after a groſs manner, to all Mankind, and to almoſt all Living Creatures; others only to the Learned in Aſtronomy, or elſe derived from theſe by Inſtituti<g ref="char:EOLhyphen"/>on for Civil Uſe.</p>
+               <p>And from theſe <hi>Conſtituted</hi> Meaſures, and Denominations of Time, <hi>viz.</hi> Day, and Year, (not excluding the Lunar Month) all other Meaſures of <hi>Duration,</hi> or <hi>Succeſſive Motion,</hi> are Ar<g ref="char:EOLhyphen"/>tificially contrived for Civil Uſe; by dividing <hi>theſe</hi> into leſs parts, or Col<g ref="char:EOLhyphen"/>lecting and Compounding them. The Day for Small Meaſures, chiefly by Partition, and the Year for Great, by Collection of Numbers of Years: Or we may meaſure by Numbers of Days, and Parts of a Year.</p>
+               <p>Some divided the Natural day, comprizing Day and Night into four
+<pb n="32" facs="tcp:47808:21"/>Parts, or Quarters for the Day, and four for the Night; and each of theſe Quarters conſiſted of three Planetary Hours: The Artificial day from Sun<g ref="char:EOLhyphen"/>riſe to Sunſet (be it longer or ſhorter) being divided into 12 Equal Hours; and the Night likewiſe into 12: Three of which Hours made one Part, or Quarter. But the Hours of the Day were always unequal to the Hours of the Night, according to the Increaſe, or Decreaſe of the Lengths of Days and Nights: Only if the Sun were in the Equinoctial, or the Inhabitants under the ſame; then the Days and Nights being Equal, ſo would the Hours be alſo.</p>
+               <p>But the General Uſage is, to divide the whole Natural day into 24 Equal Hours, an Hour into 60<hi rend="sup">I</hi> (Minutes) a Minute into 60<hi rend="sup">II</hi> (Second Minutes) a Second Minute into 60<hi rend="sup">III</hi> (Thirds) and ſo on.</p>
+               <pb n="33" facs="tcp:47808:21"/>
+               <p>And by thus dividing the Day, we compute the ſmalleſt Meaſures of Time: and by Compounding Years, we meaſure the Greater Spaces of Du<g ref="char:EOLhyphen"/>ration.</p>
+               <p>But we muſt obſerve, that the Day is not thus divided by Nature, as it is into Light, and Darkneſs; and by the Meridian into Noon, and Mid<g ref="char:EOLhyphen"/>night: But this Diviſion (as moſt o<g ref="char:EOLhyphen"/>thers are) is Artificial, and at our pleaſure, by Conſent of Nations.</p>
+               <p>We may obſerve likewiſe, that the common Diviſion of a Circle, into 360 Degrees, or Parts, is alſo Artifi<g ref="char:EOLhyphen"/>cial, and Arbitrary: But it is well choſen and pitched upon, as being a Number that abounds with Integer <hi>A<g ref="char:EOLhyphen"/>liquot</hi> Parts, and therefore moſt apt for Partition; and being, as near as may be, ſuited to the number of Days, which the Sun makes in a Year, in compaſſing his whole Circle of the Ecliptic; <hi>viz.</hi> 360, to 365. And in
+<pb n="34" facs="tcp:47808:22"/>both reſpects it is beſt fitted for Aſtro<g ref="char:EOLhyphen"/>nomical Uſes.</p>
+               <p>Of the former of theſe, the <hi>Aliquot</hi> Parts of the Number 360, take a ſhort View, as follows;
+<table>
+                     <row>
+                        <cell>1</cell>
+                        <cell>360</cell>
+                     </row>
+                     <row>
+                        <cell>2</cell>
+                        <cell>180</cell>
+                     </row>
+                     <row>
+                        <cell>3</cell>
+                        <cell>120</cell>
+                     </row>
+                     <row>
+                        <cell>4</cell>
+                        <cell>90</cell>
+                     </row>
+                     <row>
+                        <cell>5</cell>
+                        <cell>72</cell>
+                     </row>
+                     <row>
+                        <cell>6</cell>
+                        <cell>60</cell>
+                     </row>
+                     <row>
+                        <cell>8</cell>
+                        <cell>45</cell>
+                     </row>
+                     <row>
+                        <cell>9</cell>
+                        <cell>40</cell>
+                     </row>
+                     <row>
+                        <cell>10</cell>
+                        <cell>36</cell>
+                     </row>
+                     <row>
+                        <cell>12</cell>
+                        <cell>30</cell>
+                     </row>
+                     <row>
+                        <cell>15</cell>
+                        <cell>24</cell>
+                     </row>
+                     <row>
+                        <cell>18</cell>
+                        <cell>20</cell>
+                     </row>
+                  </table> 
+                  <hi>In toto</hi> 23 ſeveral <hi>Aliquot</hi> parts.</p>
+               <p>The Number 6, is celebrated for having all <hi>Aliquot</hi> Parts; <hi>viz.</hi> 3, 2, and 1; and for being compoſed of the Aggregate of them all; and there<g ref="char:EOLhyphen"/>fore is ſtiled, The Perfect Number.</p>
+               <p>And 10 is the firſt of the Saraceni<g ref="char:EOLhyphen"/>cal Characters, or Figures with Cypher, that great Friend to Calculation; or rather, which changeth Calculation,
+<pb n="35" facs="tcp:47808:22"/>ſtrictly ſo called, into eaſie Compu<g ref="char:EOLhyphen"/>tation. Now the Number 360 con<g ref="char:EOLhyphen"/>ſiſts of the Square of 6, <hi>viz.</hi> 36, mul<g ref="char:EOLhyphen"/>tiplied by 10, or having a Cypher added to it.</p>
+               <p>Of theſe 360 Degrees, or Parts of a Circle, every one may be ſup<g ref="char:EOLhyphen"/>poſed to be ſubdivided into Minutes, Seconds, Thirds, <hi>&amp;c.</hi> And theſe Parts are marked alike with the Parts of an Hour, <hi>ex. gr.</hi> For Hours; 3<hi rend="sup">H</hi> 2<hi rend="sup">I</hi>, 5<hi rend="sup">II</hi>, 4<hi rend="sup">III</hi>, and ſo onwards: For Degrees; 3<hi rend="sup">Gr</hi>, or 3°, 2<hi rend="sup">I</hi>, 5<hi rend="sup">II</hi>, 4<hi rend="sup">III</hi>, <hi>&amp;c. i. e.</hi> 3 Hours, or 3 Degrees, 2 Mi<g ref="char:EOLhyphen"/>nutes, 5 Seconds, 4 Thirds; and ſo forwards: A Minute being 1/60 of an Hour, or of a Degree; a Second, 1/60 of a Minute; a Third, 1/60 of a Second; <hi>&amp;c.</hi> So that one Hour, or Degree, contains 60<hi rend="sup">I</hi>, 3600<hi rend="sup">II</hi>, 216000<hi rend="sup">III</hi>, and as many Fourths<hi rend="sup">IIII</hi>, as is the laſt Number mul<g ref="char:EOLhyphen"/>tiplied by 60; <hi>viz.</hi> 12960000<hi rend="sup">IIII</hi>; al<g ref="char:EOLhyphen"/>moſt 13 Millions.</p>
+               <pb n="36" facs="tcp:47808:23"/>
+               <p>By Compoſition, or Joint Num<g ref="char:EOLhyphen"/>ber of Days, beſides ſuch as have been formerly in uſe, we have now chiefly, the Week, made of ſeven Days; and a Month, made of 4 Weeks, or 28 Days.</p>
+               <p>By Partition, or Groſs Dividing of the Year, we have the 4 Quarters, or Seaſons of the Year; we have 12 Ca<g ref="char:EOLhyphen"/>lendar Months intended (however now Unequaly conſtituted at Plea<g ref="char:EOLhyphen"/>ſure) to meaſure the Movement, or Paſſage of the Sun through every of the 12 Signs of the Zodiac.</p>
+               <p>Laſtly, by Compounding, or Num<g ref="char:EOLhyphen"/>bring Years, we keep Account of A<g ref="char:EOLhyphen"/>ges, and Publick Tranſactions, and Me<g ref="char:EOLhyphen"/>morable Accidents: we make Cycles, and Periods of Years; as Decads, Centuries, Chiliads, <hi>&amp;c.</hi> chiefly for the uſe of Computations in Hiſtory, Chronology, Aſtronomy, <hi>&amp;c.</hi> The Numbers of Years, by which we mea<g ref="char:EOLhyphen"/>ſure the Spaces of Time; having their
+<pb n="37" facs="tcp:47808:23"/>ſeveral <hi>Epocha's,</hi> or Beginnings; as, from the Creation of the World; from the Floud; from the firſt Olympiad; from the Building of <hi>Rome;</hi> or from any remarkable Paſſage, or Accident, giving us a pleaſant Proſpect into the Hiſtories of Antiquity, and of former Ages.</p>
+               <p>We Chriſtians make the Reputed Year of the Nativity of our Bleſſed Saviour our chief <hi>Epocha,</hi> from which to make our Dates, brought in uſe firſt by <hi>Dionyſius Exiguus,</hi> Abbas, who lived in <hi>Juſtinian</hi>'s Reign, about the Year of our Lord 528: And tho' his Computation may perhaps differ two Years from Truth, as <hi>Helvicus;</hi> or more Years, as others are of opini<g ref="char:EOLhyphen"/>on; yet ſince it is, and has been uni<g ref="char:EOLhyphen"/>verſally received over all Chriſtendom, our Compute by it is, as for the uſe of it, Certain, and not liable to any Error or Miſtake. It was ſtiled <hi>Ae<g ref="char:EOLhyphen"/>ra Dionyſiana,</hi> or, <hi>Aera Chriſtiana,</hi> and
+<pb n="38" facs="tcp:47808:24"/>afterwards <hi>Vulgaris</hi> was added to it, to diſtinguiſh it from <hi>Aera Chriſtiana Vera,</hi> as contended for, though never in uſe.</p>
+               <p>Till then, the Accounts in uſe were, the Olympiads, the Conſuls, <hi>Urbs Con<g ref="char:EOLhyphen"/>dita,</hi> Indictions. The Olympiads were a ſmall Cycle, but of four Years, ſtill repeated, and numbring withall the Repetitions: But <hi>Iphitus</hi> made them an <hi>Aera,</hi> by accompting a continual Series of Expanded Years from the firſt Olympick; and they were uſed both ways, but chiefly the Olympi<g ref="char:EOLhyphen"/>ads, by Quaternions.</p>
+            </div>
+            <div n="3" type="chapter">
+               <pb n="39" facs="tcp:47808:24"/>
+               <head>CHAP. III.</head>
+               <argument>
+                  <p>
+                     <hi>Of</hi> Epocha's, <hi>Cycles, or Periods. § Of the</hi> Dionyſian <hi>Period. § Of the Cycle of the Sun; and Changes of the Dominical Letter. Containing alſo an Account of the Week; and Biſſextile. With a Table of the Dominical-letter,</hi> &amp;c. <hi>§ Some other Periods; particularly, that called the</hi> Julian. <hi>§ The Indi<g ref="char:EOLhyphen"/>ction. § Some Principal</hi> Aera's, <hi>and Periods; with a Table, reducing them to the Year of our Lord.</hi>
+                  </p>
+               </argument>
+               <p>HERE, if I may have leave to Digreſs, and take in Noti<g ref="char:EOLhyphen"/>ons, though not ſo Pertinent to our preſent Deſign; yet equally Profita<g ref="char:EOLhyphen"/>ble and Uſefull to Young Students, for whom this Diſcourſe is intended: I would in this Place ſay ſomething more of <hi>Epocha's,</hi> and <hi>Periods.</hi>
+               </p>
+               <p>And, firſt, I take <hi>Epocha</hi> to be the Head, or Beginning, (the Pauſe, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>,
+<pb n="40" facs="tcp:47808:25"/>or Stop, if you reckon up, or back<g ref="char:EOLhyphen"/>wards as far as you can:) And <hi>Ae<g ref="char:EOLhyphen"/>ra,</hi> the Continuation, or Series of any Account of Years; which is, or may be ſuppoſed to be Extended, and Numbred onwards, as long as Time ſhall have a Being.</p>
+               <p>Secondly, a Cycle, or Period, is an Account of Years that has a Begin<g ref="char:EOLhyphen"/>ning and an End too; And then be<g ref="char:EOLhyphen"/>gins again and again, as often as it ends; and ſo obtains a Perpetuity. The <hi>Aera</hi> has but one Beginning, which is the <hi>Epocha,</hi> if we ſpeak ſtrict<g ref="char:EOLhyphen"/>ly, though the Words are often Promiſ<g ref="char:EOLhyphen"/>cuouſly uſed: And from thence a Con<g ref="char:EOLhyphen"/>tinual Extenſion.</p>
+               <p>The Cycle, or Period, has its Con<g ref="char:EOLhyphen"/>tinuation by beginning again as oft as it ends, going as it were in a Circle, and thence it has its Name. Thus the Cycle of the Moon, after every Space of 19 Years, begins again, <hi>toties, quo<g ref="char:EOLhyphen"/>ties, in infinitum.</hi> I think we do more
+<pb n="41" facs="tcp:47808:25"/>commonly uſe theſe words ſo, as to ſtile a leſſer Space, a Cycle, and a greater by the Name of Period; and you may not improperly call the Be<g ref="char:EOLhyphen"/>ginning of a large Period, the <hi>Epocha</hi> thereof. For the Derivation of theſe Words, <hi>Epocha</hi> and <hi>Aera,</hi> I refer you to the Etymologiſts.</p>
+               <p>The aforeſaid <hi>Dionyſius</hi> (or, as ſome affirm, <hi>Victorius Aquitanus,</hi> a<g ref="char:EOLhyphen"/>bout 70 Years before him) conſider<g ref="char:EOLhyphen"/>ing that a ſmall Cycle of Years (by reaſon of its often Revolution) can<g ref="char:EOLhyphen"/>not give ſo certain a Character of Time, as a large Period; contrived a Period, uſefull for Computation, conſi<g ref="char:EOLhyphen"/>ſting of 532 years; by applying the Cycle of the Sun 28, to that of the Moon 19: which multiplied toge<g ref="char:EOLhyphen"/>ther, give the Number of 532; be<g ref="char:EOLhyphen"/>ginning as oft as thoſe two Cycles take their Riſe together at 1, as they did lately in the Year 1672. <hi>Dionyſius</hi> however gave it a new Beginning, by
+<pb n="42" facs="tcp:47808:26"/>applying it to the Year of our Lord; and therefore it was generally ſtiled, the <hi>Dionyſian</hi> Period. This Period has had but 4 Beginnings ſince <hi>Chriſt; viz. A. D.</hi> 76, 608, 1140, 1672: and this preſent Year 1693 is the 22<hi rend="sup">d</hi> year of this Period.</p>
+               <p>As the Cycle of the Moon ſerves to ſhew the Epacts, and that of the Sun the Dominical Letter, throughout all their Variations; So this <hi>Dionyſian</hi> Period ſerves to ſhew theſe two Cycles both together, and how they proceed, and vary all a<g ref="char:EOLhyphen"/>long, till at laſt they accompliſh their Period, and both together take their Be<g ref="char:EOLhyphen"/>ginning again after every 532<hi rend="sup">d</hi> year.</p>
+               <p>And it ſerves farther alſo (which was the chief Deſign of it) for more Certain Computation, by how much it is a Larger and more Comprehen<g ref="char:EOLhyphen"/>ſive Period, and under a more Unde<g ref="char:EOLhyphen"/>ceivable Calculation.</p>
+               <p>The two Cycles, which make this Period, are (or ought to be) very well known to all. One of them,
+<pb n="43" facs="tcp:47808:26"/>that of the Moon, or Golden Num<g ref="char:EOLhyphen"/>ber, is at large explicated in the fol<g ref="char:EOLhyphen"/>lowing Diſcourſe: The other, that of the Sun, ſo called, becauſe it ſhews the Sunday Letter, being a Table or Cycle of the Changes of the Dominical Letter; I ſhall briefly here explain.</p>
+               <p>Inſtead of the ancient <hi>Roman</hi> diviſion of the Month, into Nones, Ides, and Ca<g ref="char:EOLhyphen"/>lends; we reckon the Days of the Month in Order: And inſtead of their accomp<g ref="char:EOLhyphen"/>ting by their <hi>Nundinae (quaſi Novendinae)</hi> their Mercates, or Fayrs, for the Coun<g ref="char:EOLhyphen"/>try-People to come to Town every 9th Day, for Commerce and Trade; and to receive their Laws; (as the <hi>Greeks</hi> reck<g ref="char:EOLhyphen"/>oned by Ten's, dividing their Month into 3 Parts) we, as the <hi>Hebrews,</hi> num<g ref="char:EOLhyphen"/>ber our Days by Weeks, and their Re<g ref="char:EOLhyphen"/>turns, after every 7 Days; which the <hi>Jews</hi> did in relation to their Sabbath, (and poſſibly the <hi>Aſſyrians,</hi> &amp;c. in relati<g ref="char:EOLhyphen"/>on to the Quarters of the Moon, conſiſt<g ref="char:EOLhyphen"/>ing each of about 7 days) and we, as Chriſtians, for our Lord's day.</p>
+               <pb n="44" facs="tcp:47808:27"/>
+               <p>We deſcribe the Days of the Week by ſeven ſeveral Names, as Sunday, Monday, Tueſday, <hi>&amp;c.</hi> And to di<g ref="char:EOLhyphen"/>ſtinguiſh them in the Calendar, there are 7 Letters appropriated, and ſet in Alphabetical order before them, and ſo repeated throughout the whole Year; <hi>viz.</hi> A, B, C, D, E, F, G; and ſome one of theſe is the Dominical Letter, or the Letter for Sunday; and the Let<g ref="char:EOLhyphen"/>ters following for the other Days, as they follow.</p>
+               <p>But the Sunday Letter is not con<g ref="char:EOLhyphen"/>ſtantly the ſame, but is changed once in every Common Year, and in eve<g ref="char:EOLhyphen"/>ry Fourth, or Leap-year, twice. And the reaſon is, Firſt, becauſe the Com<g ref="char:EOLhyphen"/>mon Year does not conſiſt of juſt Weeks, but of 52 Weeks, and one Day. So that as the Year begins with A, ſet before New-year's-day: So it ends with A, ſet before the laſt Day. And the Year beginning again at A, there will be two, A, A, falling to<g ref="char:EOLhyphen"/>gether,
+<pb n="45" facs="tcp:47808:27"/>
+                  <hi>Dec.</hi> 31: and <hi>Jan.</hi> 1. and if one of them, (the former) happen to be Sunday, the other in courſe muſt ſtand for Monday; and then reckoning onward, Sunday muſt fall upon the firſt following G, and G will be the Dominical that enſuing Year. Thus the odd Day ſhifts back the Dominical Letter every Year, by one Letter. And this Revolution would be terminated in 7 Years.</p>
+               <p>But ſecondly, there comes in another odd Day every 4th Year, being Leap-year. And in that Year there are con<g ref="char:EOLhyphen"/>ſequently two ſuch Shifts; the Sunday Letter being changed twice: Once at the beginning of the Year; and the 2<hi rend="sup">d</hi> time towards the latter end of <hi>February,</hi> by Interpoſition of the Biſſextile, or In<g ref="char:EOLhyphen"/>tercalar Day; called Biſſextile, becauſe the 6th of the Calends of <hi>March</hi> is twice repeated. And the reaſon why this was done in that Month, and not ra<g ref="char:EOLhyphen"/>ther at the end of the Year ſeems to be,
+<pb n="46" facs="tcp:47808:28"/>becauſe by <hi>Numa</hi>'s Inſtitution for the better regulating the Year, (in imi<g ref="char:EOLhyphen"/>tation of what the <hi>Greeks</hi> had done before) there had been an Interca<g ref="char:EOLhyphen"/>lation of ſeveral Days, at that very time in <hi>February.</hi>
+               </p>
+               <p>To take a more eaſie Account of theſe Changes, there is appropriated a Cycle, which comprehends in order all the Variations of the Sunday Let<g ref="char:EOLhyphen"/>ter: and is therefore called, the Cycle of the Sun; compoſed of 4, which makes the Leap-year, and 7, the change of the one odd Day, through<g ref="char:EOLhyphen"/>out the <hi>Septimana,</hi> or Week; 4 times 7 gives 28. This Cycle begins at that Leap-year, wherein G and F are the Sunday Letters, and is terminated at 28. By the Table annexed, you may ſee how it proceeds. I have added to it the Cycle of the Moon, or Gol<g ref="char:EOLhyphen"/>den Number; that you may view their Progreſs, from their being join<g ref="char:EOLhyphen"/>ed, and beginning together, in the Year 1672.</p>
+               <pb n="47" facs="tcp:47808:28"/>
+               <p>
+                  <table>
+                     <row>
+                        <cell role="label">
+                           <hi>A. D.</hi>
+                        </cell>
+                        <cell role="label">Cyc. ☉</cell>
+                        <cell role="label">D. Letter</cell>
+                        <cell role="label">Cyc. <g ref="char:Moon">☽</g>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>1672</cell>
+                        <cell>1</cell>
+                        <cell>G.F</cell>
+                        <cell>1</cell>
+                     </row>
+                     <row>
+                        <cell>73</cell>
+                        <cell>2</cell>
+                        <cell>E</cell>
+                        <cell>2</cell>
+                     </row>
+                     <row>
+                        <cell>74</cell>
+                        <cell>3</cell>
+                        <cell>D</cell>
+                        <cell>3</cell>
+                     </row>
+                     <row>
+                        <cell>75</cell>
+                        <cell>4</cell>
+                        <cell>C</cell>
+                        <cell>4</cell>
+                     </row>
+                     <row>
+                        <cell>76</cell>
+                        <cell>5</cell>
+                        <cell>B.A</cell>
+                        <cell>5</cell>
+                     </row>
+                     <row>
+                        <cell>77</cell>
+                        <cell>6</cell>
+                        <cell>G</cell>
+                        <cell>6</cell>
+                     </row>
+                     <row>
+                        <cell>78</cell>
+                        <cell>7</cell>
+                        <cell>F</cell>
+                        <cell>7</cell>
+                     </row>
+                     <row>
+                        <cell>79</cell>
+                        <cell>8</cell>
+                        <cell>E</cell>
+                        <cell>8</cell>
+                     </row>
+                     <row>
+                        <cell>1680</cell>
+                        <cell>9</cell>
+                        <cell>D. C</cell>
+                        <cell>9</cell>
+                     </row>
+                     <row>
+                        <cell>81</cell>
+                        <cell>10</cell>
+                        <cell>B</cell>
+                        <cell>10</cell>
+                     </row>
+                     <row>
+                        <cell>82</cell>
+                        <cell>11</cell>
+                        <cell>A</cell>
+                        <cell>11</cell>
+                     </row>
+                     <row>
+                        <cell>83</cell>
+                        <cell>12</cell>
+                        <cell>G</cell>
+                        <cell>12</cell>
+                     </row>
+                     <row>
+                        <cell>84</cell>
+                        <cell>13</cell>
+                        <cell>F. E</cell>
+                        <cell>13</cell>
+                     </row>
+                     <row>
+                        <cell>85</cell>
+                        <cell>14</cell>
+                        <cell>D</cell>
+                        <cell>14</cell>
+                     </row>
+                     <row>
+                        <cell>86</cell>
+                        <cell>15</cell>
+                        <cell>C</cell>
+                        <cell>15</cell>
+                     </row>
+                     <row>
+                        <cell>87</cell>
+                        <cell>16</cell>
+                        <cell>B</cell>
+                        <cell>16</cell>
+                     </row>
+                     <row>
+                        <cell>88</cell>
+                        <cell>17</cell>
+                        <cell>A. G</cell>
+                        <cell>17</cell>
+                     </row>
+                     <row>
+                        <cell>89</cell>
+                        <cell>18</cell>
+                        <cell>F</cell>
+                        <cell>18</cell>
+                     </row>
+                     <row>
+                        <cell>1690</cell>
+                        <cell>19</cell>
+                        <cell>E</cell>
+                        <cell>19</cell>
+                     </row>
+                     <row>
+                        <cell>91</cell>
+                        <cell>20</cell>
+                        <cell>D</cell>
+                        <cell>1</cell>
+                     </row>
+                     <row>
+                        <cell>92</cell>
+                        <cell>21</cell>
+                        <cell>C. B</cell>
+                        <cell>2</cell>
+                     </row>
+                     <row>
+                        <cell>93</cell>
+                        <cell>22</cell>
+                        <cell>A</cell>
+                        <cell>3</cell>
+                     </row>
+                     <row>
+                        <cell>94</cell>
+                        <cell>23</cell>
+                        <cell>G</cell>
+                        <cell>4</cell>
+                     </row>
+                     <row>
+                        <cell>95</cell>
+                        <cell>24</cell>
+                        <cell>F</cell>
+                        <cell>5</cell>
+                     </row>
+                     <row>
+                        <cell>96</cell>
+                        <cell>25</cell>
+                        <cell>E. D</cell>
+                        <cell>6</cell>
+                     </row>
+                     <row>
+                        <cell>97</cell>
+                        <cell>26</cell>
+                        <cell>C</cell>
+                        <cell>7</cell>
+                     </row>
+                     <row>
+                        <cell>98</cell>
+                        <cell>27</cell>
+                        <cell>B</cell>
+                        <cell>8</cell>
+                     </row>
+                     <row>
+                        <cell>99</cell>
+                        <cell>28</cell>
+                        <cell>A</cell>
+                        <cell>9</cell>
+                     </row>
+                     <row>
+                        <cell>1700</cell>
+                        <cell>1</cell>
+                        <cell>G. F</cell>
+                        <cell>10</cell>
+                     </row>
+                     <row>
+                        <cell>701</cell>
+                        <cell>2</cell>
+                        <cell>E</cell>
+                        <cell>11</cell>
+                     </row>
+                     <row>
+                        <cell>702</cell>
+                        <cell>3</cell>
+                        <cell>D</cell>
+                        <cell>12</cell>
+                     </row>
+                     <row>
+                        <cell>703</cell>
+                        <cell>4</cell>
+                        <cell>C</cell>
+                        <cell>13</cell>
+                     </row>
+                     <row>
+                        <cell>704</cell>
+                        <cell>5</cell>
+                        <cell>B. A</cell>
+                        <cell>14 <hi>&amp;c.</hi>
+                        </cell>
+                     </row>
+                  </table>
+               </p>
+               <pb n="48" facs="tcp:47808:29"/>
+               <p>It is likely the aforeſaid Period was made by <hi>Dionyſius</hi> (or whoever elſe firſt attempted it) in imitation of <hi>Calippus,</hi> who, many Ages before, in like man<g ref="char:EOLhyphen"/>ner, and for the like reaſon, joined four of <hi>Meton</hi>'s Lunary <hi>Decennoval</hi> Cycles; (what they are, you will ſee hereafter) out of which he made a Peri<g ref="char:EOLhyphen"/>od of 76 Years, which had its begin<g ref="char:EOLhyphen"/>ning at the New-moon, next after the Summer Solſtice, after the Victory of <hi>Alexander</hi> the Great over <hi>Darius.</hi>
+               </p>
+               <p>And in the ſame manner, after the third Revolution of this Period, <hi>Hip<g ref="char:EOLhyphen"/>parchus</hi> enlarged it, by adding toge<g ref="char:EOLhyphen"/>ther four of theſe <hi>Calippic</hi> Periods, and ſo obtain'd a greater Period of 304 years, containing 16 <hi>Metonic</hi> Cycles.</p>
+               <p>Upon the ſame Principle, but with a greater and nobler Deſign and E<g ref="char:EOLhyphen"/>vent, <hi>Joſeph Scaliger</hi> formed a Period, which is become, as it were, a Standard to all others; including and compre<g ref="char:EOLhyphen"/>hending them all, and excells them
+<pb n="49" facs="tcp:47808:29"/>all for Certainty: becauſe we can, when we pleaſe, by Calculation of the Courſe of the Cycles of which it conſiſts, trace up to the Head, or Beginning of it; and ſo, infallibly determine in what year of this Period, any given year is to be placed; which by him was thus contrived.</p>
+               <p>Upon the <hi>Dionyſian</hi> Period, formed, as I have ſhewn, out of two Cycles, <hi>viz.</hi> of the Sun, and Moon, he grafted another moſt excellent one, for Large<g ref="char:EOLhyphen"/>neſs and Certainty beyond all other; commencing 764 years before the re<g ref="char:EOLhyphen"/>puted <hi>Epocha</hi> of the Creation in uſe with us, &amp; ſerving for many thouſand years: And it was by joining the <hi>Roman Indi<g ref="char:EOLhyphen"/>ction,</hi> a Cycle of 15, to the other two Cycles, <hi>i. e.</hi> to the Period of <hi>Dionyſius.</hi>
+               </p>
+               <p>The <hi>Indiction,</hi> inſtituted by <hi>Conſtan<g ref="char:EOLhyphen"/>tine</hi> the Great, is properly a Cycle of Tributes, orderly diſpoſed for 15 years: And by it Accounts of that kind were kept. Afterwards, in me<g ref="char:EOLhyphen"/>mory
+<pb n="50" facs="tcp:47808:30"/>of the great Victory obtained by <hi>Conſtantine</hi> over <hi>Maxentius,</hi> 8. <hi>Cal. Octob.</hi> 312; by which an entire Free<g ref="char:EOLhyphen"/>dom, and as it were, a new Life was given to Chriſtianity; the Council of <hi>Nice,</hi> for the Honour of <hi>Conſtantine,</hi> ordain'd, that the Accounts of years ſhould be no longer kept by the Olym<g ref="char:EOLhyphen"/>piads, which till that time had been done; but that inſtead thereof, the <hi>Indiction</hi> ſhould be made uſe of, by which to reckon and date their years; which hath its <hi>Epocha Anno Dom.</hi> 313. <hi>Jan.</hi> 1.</p>
+               <p>Now this Cycle, as was ſaid, was by <hi>Scaliger</hi> joined to the other two; making the <hi>Epocha,</hi> or Beginning, when all three Cycles begin together at 1, which comprehends a Period of 7980 years; having its <hi>Epocha</hi> 764 years be<g ref="char:EOLhyphen"/>fore that of the Creation now in uſe: And this is ſtiled the <hi>Julian</hi> Period. The Golden Number has its Period in 19 years, the Cycle of the Sun in
+<pb n="51" facs="tcp:47808:30"/>28, the Indiction in 15: The two for<g ref="char:EOLhyphen"/>mer, as before, multiplied one by the other, give 532; which multiplied by 15, gives 7980. This Period is of great uſe in Chronology, and they ap<g ref="char:EOLhyphen"/>ply all other Periods and <hi>Epocha's</hi> to it.</p>
+               <p>Chronologers differ amongſt them<g ref="char:EOLhyphen"/>ſelves about moſt other Great <hi>Epocha's;</hi> as particularly, that moſt principal <hi>Epocha</hi> of the Creation, which is ac<g ref="char:EOLhyphen"/>counted by Arch-biſhop <hi>Uſher</hi> to have been 4003 years compleat before the Vulgar <hi>Aera</hi> of <hi>Chriſt;</hi> by <hi>Scaliger,</hi> 3949; by <hi>Petavius,</hi> 3983; <hi>&amp;c.</hi>
+               </p>
+               <p>So that when I read of an Action ſaid to be done in ſuch a year of the Creation, I am in uncertainty, whoſe Opinion amongſt them my Author follows; and conſequently know not what year he means: But the <hi>Julian</hi> Period is ſo fixed by Certain Calcu<g ref="char:EOLhyphen"/>lation of the Revolutions of thoſe Cycles which make it, that it can lie under no Miſtake or Doubt, but is
+<pb n="52" facs="tcp:47808:31"/>an Infallible Character of that one year; to which therefore all other <hi>Ae<g ref="char:EOLhyphen"/>ra's</hi> muſt be reduced, as well as we can.</p>
+               <p>It is neceſſary to know the different Periods, and <hi>Epocha's</hi> as they were in uſe amongſt ſeveral Nations, and to know how to reduce them to our way of Ac<g ref="char:EOLhyphen"/>counting; elſe we cannot underſtand their Hiſtorians, as to the true Date, and Time of Occurrences, which they Re<g ref="char:EOLhyphen"/>late and Account after their own way.</p>
+               <p>The <hi>Greeks</hi> accounted by the O<g ref="char:EOLhyphen"/>lympiads chiefly, the <hi>Romans</hi> from the Building of <hi>Rome,</hi> and by their <hi>Faſti Conſulares,</hi> as the <hi>Athenians</hi> did by their <hi>Archontes.</hi> The Aſtronomers from <hi>Na<g ref="char:EOLhyphen"/>bonaſſar.</hi> The <hi>Aera</hi> of <hi>Diocleſian,</hi> or of the Coptites, or Martyrs, in many places was uſed until the Chriſtian <hi>Ae<g ref="char:EOLhyphen"/>ra</hi> took place; and is ſtill in uſe, as <hi>Helvicus</hi> relates, amongſt <hi>Arabian</hi> and <hi>Aethiopic</hi> Chriſtians. The <hi>Arabians</hi> and <hi>Turks</hi> account from the <hi>Hegira,</hi> or Flight of <hi>Mahomet.</hi> The <hi>Perſians</hi> from <hi>Jezdagird,</hi> &amp;c.</p>
+               <pb n="53" facs="tcp:47808:31"/>
+               <p>I have, for this cauſe, in the fol<g ref="char:EOLhyphen"/>lowing Tables, endeavoured to reduce the principal <hi>Aera's,</hi> and Periods, to the Year of our Lord: Some having their <hi>Epocha's</hi> before the Nativity, and ſome after.</p>
+               <p>
+                  <table>
+                     <row>
+                        <cell rows="13">
+                           <hi>Scali<g ref="char:EOLhyphen"/>ger.</hi>
+                        </cell>
+                        <cell>
+                           <hi>An.Do.</hi>
+                        </cell>
+                        <cell>1</cell>
+                        <cell>1600</cell>
+                        <cell>1695</cell>
+                        <cell>1700</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Julian Period.</hi>
+                        </cell>
+                        <cell>4714</cell>
+                        <cell>6313</cell>
+                        <cell>6408</cell>
+                        <cell>6413</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Creation.</hi>
+                        </cell>
+                        <cell>3950</cell>
+                        <cell>5549</cell>
+                        <cell>5644</cell>
+                        <cell>5649</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Judaic Period.</hi>
+                        </cell>
+                        <cell>3761</cell>
+                        <cell>5360</cell>
+                        <cell>5455</cell>
+                        <cell>5460</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Deluge.</hi>
+                        </cell>
+                        <cell>2294</cell>
+                        <cell>3893</cell>
+                        <cell>3988</cell>
+                        <cell>3993</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Exodus Aegypt.</hi>
+                        </cell>
+                        <cell>1498</cell>
+                        <cell>3097</cell>
+                        <cell>3192</cell>
+                        <cell>3197</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Troy Deſtr.</hi>
+                        </cell>
+                        <cell>1183</cell>
+                        <cell>2782</cell>
+                        <cell>2877</cell>
+                        <cell>2882</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Solomon's Temple.</hi>
+                        </cell>
+                        <cell>1018</cell>
+                        <cell>2617</cell>
+                        <cell>2712</cell>
+                        <cell>2717</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Olympiad.</hi>
+                        </cell>
+                        <cell>1.195</cell>
+                        <cell>4.594</cell>
+                        <cell>3.618</cell>
+                        <cell>4.619</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Iphitus.</hi>
+                        </cell>
+                        <cell>777</cell>
+                        <cell>2376</cell>
+                        <cell>2471</cell>
+                        <cell>2476</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>
+                              <g ref="char:V">Ʋ</g>. C.</hi>
+                        </cell>
+                        <cell>753</cell>
+                        <cell>2352</cell>
+                        <cell>2447</cell>
+                        <cell>2452</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Nabonaſ<g ref="char:EOLhyphen"/>ſar.</hi>
+                        </cell>
+                        <cell>749</cell>
+                        <cell>2349</cell>
+                        <cell>2444</cell>
+                        <cell>2449</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Julian Calendar.</hi>
+                        </cell>
+                        <cell>46</cell>
+                        <cell>1645</cell>
+                        <cell>1740</cell>
+                        <cell>1745</cell>
+                     </row>
+                  </table>
+                  <pb n="54" facs="tcp:47808:32"/>
+                  <table>
+                     <row>
+                        <cell role="label" rows="2">
+                           <hi>Heads of ſome</hi> Aera's <hi>after Chriſt</hi>
+                        </cell>
+                        <cell role="label" rows="2">
+                           <hi>A. D.</hi>
+                        </cell>
+                        <cell role="label" cols="3">Years expanded ſince, to the year of our lord.</cell>
+                     </row>
+                     <row>
+                        <cell>1600</cell>
+                        <cell>1695</cell>
+                        <cell>1700</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Deſtruction of</hi> Jeruſalem.</cell>
+                        <cell>70</cell>
+                        <cell>1530</cell>
+                        <cell>1625</cell>
+                        <cell>1630</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Diocleſian's</hi> Aera.</cell>
+                        <cell>284</cell>
+                        <cell>1316</cell>
+                        <cell>1411</cell>
+                        <cell>1416</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Indiction.</hi>
+                        </cell>
+                        <cell>313</cell>
+                        <cell>13.<lb/>1287</cell>
+                        <cell>3.<lb/>1382</cell>
+                        <cell>8.<lb/>1387</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Hegira.</hi>
+                        </cell>
+                        <cell>622</cell>
+                        <cell>978</cell>
+                        <cell>1073</cell>
+                        <cell>1078</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Jezdagird.</hi>
+                        </cell>
+                        <cell>632</cell>
+                        <cell>968</cell>
+                        <cell>1063</cell>
+                        <cell>1068</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Conqueſt.</hi>
+                        </cell>
+                        <cell>1066</cell>
+                        <cell>534</cell>
+                        <cell>629</cell>
+                        <cell>634</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Calendar reformed.</hi>
+                        </cell>
+                        <cell>1582</cell>
+                        <cell>18</cell>
+                        <cell>113</cell>
+                        <cell>118</cell>
+                     </row>
+                  </table>
+               </p>
+               <p>As to theſe Tables, the Reader may obſerve, that Authors differ about fixing ſome of the principal <hi>Aera's</hi> (as I ſaid before) eſpecially that of the Creation; about which many Learned Men diſſent from one another. But chiefly, the Account of the <hi>Septuagint,</hi> and that likewiſe which a great part of the Eaſtern Churches do follow, and the Weſtern did even after St. <hi>Jerom</hi>'s time; are very widely diſtant from that uſed by us at preſent, grounded (as 'tis thought) upon a different Reading of the Ancient Text of the <hi>Hebrew</hi> Bi<g ref="char:EOLhyphen"/>ble, where it relates to the Lives of the Patriarchs, and ſome other Circumſtances. And as the Number of years are differently computed, ſo the Years themſelves alſo have different Beginnings; ſome in Summer, and others in Win<g ref="char:EOLhyphen"/>ter, <hi>&amp;c.</hi> and conſequently, ſome about the middle, compa<g ref="char:EOLhyphen"/>red with other years: whence one half of ſuch a year ſeem<g ref="char:EOLhyphen"/>ing to belong to the preceding, the other to the following year of another <hi>Aera;</hi> the <hi>Epocha</hi> thereof is placed by ſome a year ſooner, by others a year later. So that by reaſon of theſe, and other Confuſions incident to Chronologie, it is very difficult, I may ſay beyond humane Induſtry, to come to an Exact and Correct Determination; and therefore every one may, and will take leave to abound in his own ſenſe.</p>
+            </div>
+            <div n="4" type="chapter">
+               <pb n="55" facs="tcp:47808:32"/>
+               <head>CHAP. IV.</head>
+               <argument>
+                  <p>
+                     <hi>Of the Day as applyed to meaſure the Year. § Different Accounts of Years among the Ancients, and Confuſed. § The</hi> Julian <hi>Year. § Inequality of Natural Days; and Reaſons thereof; With a ſhort Table of Equation.</hi>
+                  </p>
+               </argument>
+               <p>HAving no viſibly diſtinct Peri<g ref="char:EOLhyphen"/>ods, or Meaſures of our Time for all other Motions, but the Day, and Year, and Lunar Month; the Day is beſt known to us, being but of a ſhort and eaſie obſervation, and ha<g ref="char:EOLhyphen"/>ving ſo viſible change of parts and eaſie to be meaſured by Mechanic Motions: But the Year is more ob<g ref="char:EOLhyphen"/>ſcure; though we are ſenſible of the Seaſons, yet it is hard to find the Be<g ref="char:EOLhyphen"/>ginning and End of it. We are there<g ref="char:EOLhyphen"/>fore conſtrained to make the Day ſerve to meaſure the Year as well as
+<pb n="56" facs="tcp:47808:33"/>we can, though not commenſurately to each year (as has been ſhewed be<g ref="char:EOLhyphen"/>fore) but by collecting the Fractions of Days in ſeveral Years, till they a<g ref="char:EOLhyphen"/>mount to an even Day; and then, by Addition or Subtraction, reducing the Year as near as may be to his juſt courſe.</p>
+               <p>I ſay, by Addition, or Subtraction of a Day, (when it is ſo collected) to or from the Account of the Days of the Year at certain Periods: As, at every Fourth Year to add the Biſ<g ref="char:EOLhyphen"/>ſextile-day, and at every Period of a<g ref="char:EOLhyphen"/>bout 134 Years, to omit it; which is to ſubtract it: Not regarding the ſmaller Inequalities in the mean time all along, which will never exceed the compaſs of a Day, before the Year be ſet right. For the reaſon of this Sub<g ref="char:EOLhyphen"/>traction, ſee more afterwards.</p>
+               <p>This uneven Meaſure of the Year, by collection of Days, and the Mea<g ref="char:EOLhyphen"/>ſure not being then ſo perfectly known
+<pb n="57" facs="tcp:47808:33"/>to the Ancients, rendered it very dif<g ref="char:EOLhyphen"/>ficult for them to keep a juſt Account of Years, and to tranſmit a true Chro<g ref="char:EOLhyphen"/>nology to ſucceeding Ages.</p>
+               <p>Their Civil Conſtitutions of the Year were after different manners in ſeveral Nations; ſome uſing the Sun's Year, but in divers faſhions; and ſome following the Moon, finding out <hi>Emboliſm's,</hi> or Equations, even to the addition of whole Months, to make all as Even as they could.</p>
+               <p>But it may be thought, that what<g ref="char:EOLhyphen"/>ever Methods the Ancients did apply in their Computations, and Setlements of the Spaces of Years; yet they might probably have been kept in ſome Bounds of their Accounts, by the vi<g ref="char:EOLhyphen"/>ſible Characters of thoſe Stated Mea<g ref="char:EOLhyphen"/>ſures, <hi>viz.</hi> Day, and Year; and moſt eſpecially of the Year.</p>
+               <p>For the Night and Day always made a Natural Day of 24 hours, in all places remote from the Unhabitable
+<pb n="58" facs="tcp:47808:34"/>Poles of the World; and Winter and Summer always meaſured a Year: So that, if they obſerv'd but Winter and Summer, they could not loſe a Year in their Accounts, though they were perhaps not able to meaſure the Year exactly by Days; therefore it was as uſual to them to expreſs a large Space of Time, by ſo many Winters, or Harveſts, as by ſo many Years. I muſt not diſſemble, that they who in<g ref="char:EOLhyphen"/>habit juſt under the Line, may ſeem to have two Winters, and two Sum<g ref="char:EOLhyphen"/>mers: But there alſo they have four Interchangeable Seaſons, which is e<g ref="char:EOLhyphen"/>nough whereby to meaſure the Year.</p>
+               <p>But at laſt <hi>Julius Caeſar,</hi> a year before his Death, and 44, or 45 before <hi>Chriſt;</hi> with the help of <hi>Soſigenes,</hi> an <hi>Aegyptian,</hi> univerſally ſetled the Ac<g ref="char:EOLhyphen"/>count of the Year; which we of <hi>Eng<g ref="char:EOLhyphen"/>land</hi> follow to this day; and which from him is ſtiled the <hi>Julian</hi> year.</p>
+               <pb n="59" facs="tcp:47808:34"/>
+               <p>He ſuppoſed the Solar year to con<g ref="char:EOLhyphen"/>tain juſt 365 days, and a quarter, or 6 hours; and ordered the continuance of the Account of years, by adding a day to every fourth year, collected from the odd ſix hours, remaining a<g ref="char:EOLhyphen"/>bove 365 days at the end of the year; making three years ſucceſſively to con<g ref="char:EOLhyphen"/>ſiſt of 365 days, neglecting the odd 6 hours; and the fourth year (<hi>Biſſex<g ref="char:EOLhyphen"/>tile,</hi> or Leap-year) of 366 days; ma<g ref="char:EOLhyphen"/>king thus (as he thought) a perpetual Equation of the yearly Account.</p>
+               <p>Having, before, taken notice of the Inequality of Natural days; I ſhall, before I paſs farther, ſay ſomewhat more of it in this place.</p>
+               <p>It is to be thought, that of himſelf, the Sun moves Equally through the Degrees of the Ecliptic: But by rea<g ref="char:EOLhyphen"/>ſon of the Sun's Excentricity to the Earth, and Obliquity to the Equator; he appears to us to move Unequally. The Sun paſſeth 360 Degrees of the
+<pb n="60" facs="tcp:47808:35"/>Ecliptic, <hi>i. e.</hi> round it, in 365 days, and almoſt a quarter of a day: So it is plain, that the Sun does not paſs a whole Degree of the Ecliptic in a day, one with another, but ſome<g ref="char:EOLhyphen"/>what leſs, <hi>viz.</hi> 59′. 8″: but he is found ſometimes to exceed that Number, and ſometimes to fall ſhort of it.</p>
+               <p>So that 59′ and 8″ muſt be called his Middle, or Mean Motion, being between his two Extreams, of ſome<g ref="char:EOLhyphen"/>times going faſter, and ſometimes ſlower, which makes the Inequality of Natural days. About the Summer Solſtice, being in his <hi>Apogaeum,</hi> he is found, by Obſervation, to paſs but 57 Minutes in a Day: And at the Win<g ref="char:EOLhyphen"/>ter Solſtice, in his <hi>Perigaeum</hi> 61′, ac<g ref="char:EOLhyphen"/>cording to his Apparent Motion.</p>
+               <p>The Conſequence whereof is, That the Natural day of 24 hours is ſhorter in Summer than in Winter: So that the Sun is 8 or 9 days longer in paſſing the Northern half of the E<g ref="char:EOLhyphen"/>cliptic,
+<pb n="61" facs="tcp:47808:35"/>than the Southern. Take but your Almanack, in hand, and number the days of the Sun's paſſage between the Equinoctial Points, and you will find, that from the Sun's Entrance in<g ref="char:EOLhyphen"/>to <hi>Aries,</hi> to his Entrance into <hi>Libra,</hi> are about 4 or 5 hours above 186 days: And from thence to his En<g ref="char:EOLhyphen"/>trance into <hi>Aries,</hi> are ſo much leſs than 179 days; 7 or 8 days diffe<g ref="char:EOLhyphen"/>rence. Which Entrances vary every year, as Influenced by the Unequal Meaſures of the <hi>Julian</hi> year, in reſpect of the Leap-year, and the three fol<g ref="char:EOLhyphen"/>lowing years.</p>
+               <p>This, in general, might be ſup<g ref="char:EOLhyphen"/>poſed to be cauſed by the Sun's Ex<g ref="char:EOLhyphen"/>centricity to the Earth; but amongſt Aſtronomers, there is a farther ac<g ref="char:EOLhyphen"/>count of Inequality of days, and late<g ref="char:EOLhyphen"/>ly confirmed by experience of our Watches, and Clocks; which has 4 Periods in a Year, and ſeems ſo Irre<g ref="char:EOLhyphen"/>gular, that Excentricity alone cannot
+<pb n="62" facs="tcp:47808:36"/>ſolve it, which elſe might anſwer the general Variations by Half-years: But this having four Periods in a Year, muſt have another joint Cauſe, which is the Obliquity of the Ecliptic to the Equator, and from thence, the Diur<g ref="char:EOLhyphen"/>nal differences of the Sun's <hi>Right A<g ref="char:EOLhyphen"/>ſcenſions;</hi> which finiſh their Variations in each Quadrant of the Circle of the Ecliptic: and this being joined to the former Inequality, ariſing from Excen<g ref="char:EOLhyphen"/>tricity, makes theſe Quarterly, and ſeeming Irregular Inequalities of Na<g ref="char:EOLhyphen"/>tural days. But yet theſe Differences are not ſo ſenſible to us, as to give a<g ref="char:EOLhyphen"/>ny diſturbance to our Account, and Uſe of Natural days; but rather af<g ref="char:EOLhyphen"/>fect the Meaſures of the Seaſons of the Year.</p>
+               <p>This Inequality hath been diligent<g ref="char:EOLhyphen"/>ly obſerved by ſeveral of our Ingeni<g ref="char:EOLhyphen"/>ous Clock-makers, and Equations been made and uſed by them. But the moſt Authentic Tables of Equation of Na<g ref="char:EOLhyphen"/>tural
+<pb n="63" facs="tcp:47808:36"/>days are handed to us by the Skill and Diligence of our Great Ma<g ref="char:EOLhyphen"/>ſter in Aſtronomy, Mr. <hi>Flamſtead,</hi> and publiſhed in Mr. <hi>Parker</hi>'s Almanacks for the Years 1692, and 1693. Out of which we may take a Compen<g ref="char:EOLhyphen"/>dious View only of the Days of Extreme Inequality, and of the Mean between them; referring to the whole Table for a daily Account.</p>
+               <p>Suppoſing a Watch, or a Clock, to be made and ſet ſo exactly to cor<g ref="char:EOLhyphen"/>reſpond with the Day of the Middle Motion of the Sun, that it will con<g ref="char:EOLhyphen"/>tinue to go truly according to that Mo<g ref="char:EOLhyphen"/>tion of the Sun for a whole Year; the Sun's days ſometimes lengthning, and ſometimes ſhortning (I mean the Na<g ref="char:EOLhyphen"/>tural days) the Accounts of the hours in the Sun-dial will vary from thoſe of the Equal going Watch, according to the Table following.</p>
+               <pb n="64" facs="tcp:47808:37"/>
+               <p>
+                  <table>
+                     <row>
+                        <cell role="label">Month.</cell>
+                        <cell role="label" cols="2">Equation.</cell>
+                        <cell role="label">Watch.</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Jan.</hi> 31</cell>
+                        <cell>14′.</cell>
+                        <cell>49″</cell>
+                        <cell>
+                           <hi>Too Faſt.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Apr.</hi> 4</cell>
+                        <cell>0.</cell>
+                        <cell>0</cell>
+                        <cell> </cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>May</hi> 4</cell>
+                        <cell>4.</cell>
+                        <cell>13</cell>
+                        <cell>
+                           <hi>Too Slow.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Jun.</hi> 6</cell>
+                        <cell>0.</cell>
+                        <cell>0</cell>
+                        <cell> </cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>July</hi> 15</cell>
+                        <cell>5.</cell>
+                        <cell>46</cell>
+                        <cell>
+                           <hi>Too Faſt.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Aug.</hi> 19</cell>
+                        <cell>0.</cell>
+                        <cell>0</cell>
+                        <cell> </cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Oct.</hi> 22</cell>
+                        <cell>16.</cell>
+                        <cell>1</cell>
+                        <cell>
+                           <hi>Too Slow.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Dec.</hi> 12</cell>
+                        <cell>0.</cell>
+                        <cell>0</cell>
+                        <cell> </cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Jan.</hi> 31</cell>
+                        <cell>14.</cell>
+                        <cell>49</cell>
+                        <cell>
+                           <hi>Too Faſt.</hi>
+                        </cell>
+                     </row>
+                  </table>
+               </p>
+            </div>
+            <div n="5" type="chapter">
+               <pb n="65" facs="tcp:47808:37"/>
+               <head>CHAP. V.</head>
+               <argument>
+                  <p>
+                     <hi>The Deficiency of the</hi> Julian <hi>Year, and Calendar. § And from thence, De<g ref="char:EOLhyphen"/>fects in our Eccleſiaſtical Computation; and, how to Reform it.</hi>
+                  </p>
+               </argument>
+               <p>BUT, to come nearer to our purpoſe, in reference to the Ca<g ref="char:EOLhyphen"/>lendar. There is, in this long tract of time, a great Incongruity crept into our Calendar, by the Deficiency of the <hi>Julian</hi> Year, as we meaſure it.</p>
+               <p>The true Solar Year is computed to be conſtituted of 365 days, 5<hi rend="sup">H</hi> hours, 49′ Minutes, and 16″ ſecond Mi<g ref="char:EOLhyphen"/>nutes; ſo it falls ſhort of the odd 6 hours, by 10′. 44″: The <hi>Julian</hi> Year is made to conſiſt of 365 days, ſix hours, neglecting the odd Minutes; which neglect, in tract of time, has made a conſiderable Variation.</p>
+               <pb n="66" facs="tcp:47808:38"/>
+               <p>For the odd Deficient Minutes (De<g ref="char:EOLhyphen"/>ficient, I mean, in the true year, from the <hi>Julian</hi> year of 365 days and full 6 hours) <hi>viz.</hi> 10′ 44″ multiplyed by 134, as being collected in ſo many years, ariſe to 24 hours, or a whole day: And as many times 134 years as are paſſed ſince <hi>Julius Caeſar</hi>'s time, ſo many days will the true Account of the Sun's Motion, and the Seaſons cauſed by it, vary, and fall ſooner, than by the <hi>Julian</hi> Account.</p>
+               <p>We of <hi>England</hi> retain the <hi>Julian</hi> con<g ref="char:EOLhyphen"/>ſtitution of the year (as at firſt eſta<g ref="char:EOLhyphen"/>bliſhed throughout the <hi>Roman</hi> Empire) Unreformed, without conſideration of the ſaid defective Minutes, and conti<g ref="char:EOLhyphen"/>nue our Accounts by it, making our Dates, <hi>Stylo veteri,</hi> as they who follow the <hi>Gregorian</hi> Reformation do <hi>Stylo novo.</hi> They have ſet their Calendar 10 days forward, making our tenth of <hi>March</hi> their twentieth; ſo that the Equinocti<g ref="char:EOLhyphen"/>al day, and all the other Accounts fall
+<pb n="67" facs="tcp:47808:38"/>10 days ſooner in our Calendar than in theirs; and will ſtill in tract of time fall ſooner, till it be reformed.</p>
+               <p>In <hi>Caeſar</hi>'s time, the true Vernal E<g ref="char:EOLhyphen"/>quinox, or Sun's entrance into <hi>Aries,</hi> was reputed to be about <hi>March</hi> 24th; which now by the aforeſaid Defect of 10′ 44″, is fallen back to about the 10th. of <hi>March.</hi>
+               </p>
+               <p>The <hi>Eccleſiaſtical</hi> Computation of the Moveable Feaſts regards the time of the <hi>Nicene</hi> Council, <hi>Anno</hi> 325; at which, <hi>Eaſter</hi>-day, on which the reſt depend, was ſetled and fixed, to be always on the firſt Sunday after the firſt Full-moon after the <hi>Vernal</hi> Equi<g ref="char:EOLhyphen"/>nox.</p>
+               <p>The Equinox was then on <hi>March</hi> 21; and in regard that we are now guided, not by the true Equinox, but by the <hi>Nicene</hi> Rule, which ſuppoſed the Equinox to be always the 21 of <hi>March,</hi> and we ſtill follow the ſame Rule: It hath cauſed a great <hi>Anomaly,</hi>
+                  <pb n="68" facs="tcp:47808:39"/>or Irregularity in our Calendar, and wants to be reformed, and the Equi<g ref="char:EOLhyphen"/>nox to be rightly computed, as was deſigned in the <hi>Gregorian</hi> Reformation. And being once reformed and ſet right, it may be kept ſo (as to the Sun) without any conſiderable varia<g ref="char:EOLhyphen"/>ation, for many Ages; by omitting one Leap-year, <hi>i.e.</hi> the Additional day, at the end of every 134 years: As we add a day every fourth year to adjuſt the odd ſix hours; ſo to ſubtract a day in 134 years, to adjuſt the defici<g ref="char:EOLhyphen"/>ent Minutes.</p>
+               <p>As for other nicer Obſervations in the courſe of the Sun, as the vari<g ref="char:EOLhyphen"/>ations of his <hi>Excentricity,</hi> of his <hi>Apogae<g ref="char:EOLhyphen"/>um,</hi> of his <hi>Declination,</hi> &amp;c. which have very long Periods; Aſtronomers may be conſulted by thoſe that are Curious, ſince thoſe Motions are not our Mea<g ref="char:EOLhyphen"/>ſures of Time.</p>
+               <p>Having therefore touched (ſo far as we are concerned) upon ſome
+<pb n="69" facs="tcp:47808:39"/>
+                  <hi>Phaenomena</hi> of the Motions of the Sun; we proceed now to thoſe of the Moon.</p>
+            </div>
+            <div n="6" type="chapter">
+               <head>CHAP. VI.</head>
+               <argument>
+                  <p>
+                     <hi>Of the Lunar Month, and Motion of the Moon; her Quarters, and years.</hi> § E<g ref="char:EOLhyphen"/>pacts <hi>explained. § The Golden Num<g ref="char:EOLhyphen"/>ber. § Their Uſes (with Tables) and particularly in relation to the firſt Co<g ref="char:EOLhyphen"/>lumn of the Calendar in the Common<g ref="char:EOLhyphen"/>prayer-book: Several Difficulties about it reſolved. § Imperfections and In<g ref="char:EOLhyphen"/>tricacies in theſe Accounts.</hi>
+                  </p>
+               </argument>
+               <p>THE Moon has two Accounts of her Circuit, which are her Months, or as her Years of Revolution. One, her <hi>Periodic</hi> month, or Month of <hi>Peragration,</hi> which chiefly reſpects her own proper Motion, or place in the Zodiac; by which ſhe (like the
+<pb n="70" facs="tcp:47808:40"/>Sun in his Year) performs her Revo<g ref="char:EOLhyphen"/>lution round the Zodiac, from any one Point of it, to the ſame again. And this is made in 27<hi rend="sup">D</hi>, 74<hi rend="sup">H</hi>, 43′.</p>
+               <p>The other is her <hi>Synodic</hi> month, or Month of <hi>Conſecution,</hi> and has re<g ref="char:EOLhyphen"/>lation to the Sun, and Earth more par<g ref="char:EOLhyphen"/>ticularly in reſpect of her <hi>Phaſes,</hi> or various Shapes, and of her Aſpects to the Sun: and therefore this Month of hers is chiefly, or almoſt only, con<g ref="char:EOLhyphen"/>ſider'd; in regard that the Sun is the chief Regulator of Time, and of the Moon's appearances to our Sight.</p>
+               <p>This is her Circuit from one Con<g ref="char:EOLhyphen"/>junction with the Sun (which we call New-moon, Change, Prime,) to an<g ref="char:EOLhyphen"/>other Conjunction with the ſame; and becauſe, when ſhe paſſeth from her Conjunction, by what time ſhe ſhall have accompliſh'd her Month of Peragration, in the ſame Space of time, the Sun will be advanced al<g ref="char:EOLhyphen"/>moſt a Sign of the Zodiac (which is
+<pb n="71" facs="tcp:47808:40"/>30 Degrees) <hi>viz.</hi> about 27 Degrees: Therefore ſhe muſt overtake the Sun before ſhe can be in Conjunction with him, which requires about two days; the Sun alſo, in that time, getting forwards about two Degrees more.</p>
+               <p>This Month conſiſts of 29 days and a half, Middle-motion; in which her relation to the Sun and Earth is obſerved; <hi>viz.</hi> New-moon, or Con<g ref="char:EOLhyphen"/>juction; Firſt-quarter, Full-moon, or Oppoſition; and Laſt-quarter; and all along her Age, <hi>i. e.</hi> Number of days, from the laſt New-moon.</p>
+               <p>And this is moſt properly called Month (<hi>Menſis,</hi> from <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, and Month, from Moon) the other Months, <hi>viz.</hi> the Days month, of four weeks, or 28 days; and the Years months, of the Sun's paſſage through one of the 12 Signs, are called Months, only in Al<g ref="char:EOLhyphen"/>luſion to this Lunar-month; and have of themſelves no perceptible or viſible Periods, but are only gathered, by
+<pb n="72" facs="tcp:47808:41"/>uniting a certain number of days, or taking a ſuitable partition of the year.</p>
+               <p>We have no viſible Monition of the Returns of any other Periods, ſuch as we have of the Day, by Suc<g ref="char:EOLhyphen"/>ceſſive Light and Darkneſs; of the Year, by Succeſſion of the four Sea<g ref="char:EOLhyphen"/>ſons; and, laſtly, of this Month, by the Variations of the <hi>Phaſes</hi> of the Moon, and of her Quarters or Sea<g ref="char:EOLhyphen"/>ſons, which make a viſible Return, and may challenge the Second place, next to the Day, of Signal Evidence to our Obervation.</p>
+               <p>Now, as the Sun goes round his Circle (the Ecliptic) in 12 Months; ſo, (that the Moon may keep better agreement with the accounts of the Sun) we conſider 12 of theſe Syno<g ref="char:EOLhyphen"/>dic months, to make (as it were) a Year.</p>
+               <p>But this Year, or Twelve-month, by reaſon that the Moon's Months are ſhorter than thoſe of the Sun, (her
+<pb n="73" facs="tcp:47808:41"/>Month 29½, the Sun's 30, and 31 days) is about 11 days ſhorter than the Sun's year. The Sun's 365<hi rend="sup">D</hi>, 5<hi rend="sup">H</hi>, 49′; the Moon's 354<hi rend="sup">D</hi>, and about 8 hours. Which number of 11, being the Moon's diſtance at the year's end, behind the Sun; is neceſſary to be obſerved and kept in mind for the whole following year, and the colle<g ref="char:EOLhyphen"/>cted account of it for ſucceeding years, by addition of 11 to it every year ſucceſſively; if we will reduce the Moon's accounts to thoſe of the Sun's.</p>
+               <p>And this Number is called the <hi>Epact, viz.</hi> ſo many days to be ad<g ref="char:EOLhyphen"/>ded, for an Equation of the Moon to the Sun, in reſpect of diſtance.</p>
+               <p>Suppoſing the Sun and Moon to be in Conjunction the firſt day of the year, at the end thereof the Moon's Twelve-month will be finiſhed a 11 days ſooner than that of the Sun: So, ſhe will be then, at the end of the Sun's year, 11 days behind him; and the
+<pb n="74" facs="tcp:47808:42"/>next year 11 days more, <hi>viz.</hi> 22; <hi>&amp;c.</hi>
+               </p>
+               <p>The Circle of the Epact therefore begins the firſt year at 11, the next year add 11 to it, and it will be 22; the third year add 11 more, which makes 33; caſt out 30, being a whole month, (for the Moon cannot be a<g ref="char:EOLhyphen"/>bove a whole Circle before or behind the Sun) and then the Epact is three. And thus proceed, till you ſhall have gone through all Variations of Epacts, and begin again at 11; ſtill caſting a<g ref="char:EOLhyphen"/>way 30, or 29, (for a whole month) as often as it arrives to it, or exceeds it.</p>
+               <p>All theſe Variations are finiſhed in 19 years, nearly agreeing with the courſe of the <hi>Nodes, i. e.</hi> the Points in the Ecliptic, where the Moon croſſ<g ref="char:EOLhyphen"/>eth that Circle, as ſhe paſſeth to her Northern or Southern Latitude; which <hi>Nodes</hi> are called the Head, and Tail, of the Dragon: The Head, when Northward; and the Tail, when to<g ref="char:EOLhyphen"/>wards
+<pb n="75" facs="tcp:47808:42"/>the South of the Ecliptic. Theſe continually vary, moving <hi>in Antece<g ref="char:EOLhyphen"/>dentia</hi> about 3′ <hi>per diem;</hi> which in 19 years make 360 Degrees, or the whole Circle. So, their whole change of place, and Revolution round the Eclip<g ref="char:EOLhyphen"/>tic, is finiſhed in 19 years, and then begins near the ſame courſe again. For which <hi>METON,</hi> of old, in the time of the <hi>Peloponneſian</hi> War, conſti<g ref="char:EOLhyphen"/>tuted a <hi>Decennoval</hi> Circle, or of 19 years, the ſame which we now call the Golden-number; and was ſtiled <hi>Annus,</hi> or <hi>Periodus Metonis.</hi>
+               </p>
+               <p>The monthly Circuit of the Moon is (as that of the Sun) Oblique to the Equator, and contrary to the Day<g ref="char:EOLhyphen"/>ly motion: But ſhe moves alſo ob<g ref="char:EOLhyphen"/>lique to the Ecliptic. The Sun keeps conſtantly in the Ecliptic Circle, in the middle of the Zodiac: But the Moon's Circuit is oblique alſo to the Ecliptic, croſſing it twice in every Synodic month; and proceeding to
+<pb n="76" facs="tcp:47808:43"/>the Latitude of 5 Degrees Northward, and Southward. And, if ſhe happen to be in Conjunction with, or Oppo<g ref="char:EOLhyphen"/>ſition to the Sun, when ſhe is in either <hi>Node,</hi> croſſing the Ecliptic; then there will be an Eclipſe: Of the Sun, if in Conjunction; of the Moon, if in Op<g ref="char:EOLhyphen"/>poſition: whence it is called the Eclip<g ref="char:EOLhyphen"/>tic Line or Circle. It hath been ſaid, that the Moon changeth the <hi>Nodes</hi> or Place of her croſſing, at the rate of 3 minutes of a Degree, and ſomewhat more each day; contrary to the Suc<g ref="char:EOLhyphen"/>ceſſion of the 12 Signs; ſo as to come round in 19 years, and then begin a<g ref="char:EOLhyphen"/>gain.</p>
+               <p>The Moon's Monthly courſe is not (to us) perfectly round, but in an O<g ref="char:EOLhyphen"/>val or Elliptic Figure; ſometimes nearer, and ſometimes farther from the Earth. She is twice every Month in her <hi>Apogaeum,</hi> and twice in her <hi>Peri<g ref="char:EOLhyphen"/>gaeum:</hi> the <hi>Apogaeum,</hi> near her Conjun<g ref="char:EOLhyphen"/>ction, and Oppoſition; the <hi>Perigaeum,</hi>
+                  <pb n="77" facs="tcp:47808:43"/>near the two Quarters. Hence is cau<g ref="char:EOLhyphen"/>ſed an Inequality in her motion.</p>
+               <p>The Cycle of 19 years goes though all the Variations of the Epacts, as was ſaid; and as it begins with 11, ſo after every Period of 19 years, it begins at 11 again. And becauſe the Moon, in that ſpace, numbreth ſeven months more than the Sun, by reaſon of her Deficiency of 11 days in eve<g ref="char:EOLhyphen"/>ry Solar year; Seven Months are re<g ref="char:EOLhyphen"/>trenched in this whole <hi>Decennovary</hi> Progreſs of the Epacts, to reduce the Accounts of her Motion and Place to thoſe of the Sun: <hi>viz.</hi> 30 (as that Number, or above it, accrues) is caſt away ſix times; and 29 once, <hi>viz.</hi> between the laſt year of one Cycle, and the firſt of the next enſuing. As in 1690, the Cycle of the Epacts en<g ref="char:EOLhyphen"/>ded with 29: Add 11, it gives 40 for the Epact of the next year, <hi>viz.</hi> 1691; from 40 you muſt caſt away but 29, and then the Epact remain<g ref="char:EOLhyphen"/>ing
+<pb n="78" facs="tcp:47808:44"/>is 11. But onwards, to the end of the Cycle, 30 is to be caſt away as often as that Number ariſeth, or a greater.</p>
+               <p>Thus the Cycle of <hi>Epacts</hi> ſerves at all times to ſhew the Habitude of the Moon to the Sun; <hi>i. e.</hi> her Diſtance from him.</p>
+               <p>But becauſe the <hi>Epacts</hi> ſeem to lie in a confuſed order of Numbers, making their Progreſſion by 11 every year, and ſo often caſting out 30: there<g ref="char:EOLhyphen"/>fore a Numeral Account ſet in order againſt the Epacts, from 1, till it comes to 19; where each Number anſwers to, and deſigns its reſpective Epact, being applied to it, makes a perpetual Cycle of 19; which for its excellent uſe, and becauſe it was ſet in the Calendar in Golden Letters, is called the <hi>Golden Number,</hi> or <hi>Prime.</hi>
+               </p>
+               <p>Thus the firſt of the Epacts, 11, has 1, ſet againſt it; for the firſt of the Golden Number; the next, <hi>viz.</hi> 22, has 2; the next 33, has 3; the fourth,
+<pb n="79" facs="tcp:47808:44"/>
+                  <hi>viz.</hi> 14, has 4; <hi>&amp;c.</hi> as in the firſt of the two Tables following.</p>
+               <p>
+                  <table>
+                     <row>
+                        <cell role="label" rows="2">
+                           <hi>Anno Dom.</hi>
+                        </cell>
+                        <cell role="label">
+                           <hi>Epacts</hi>
+                        </cell>
+                        <cell role="label">
+                           <hi>Golden Numb.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>1691</cell>
+                        <cell>11</cell>
+                        <cell>1</cell>
+                     </row>
+                     <row>
+                        <cell>92</cell>
+                        <cell>22</cell>
+                        <cell>2</cell>
+                     </row>
+                     <row>
+                        <cell>93</cell>
+                        <cell>33</cell>
+                        <cell>3</cell>
+                     </row>
+                     <row>
+                        <cell>94</cell>
+                        <cell>14</cell>
+                        <cell>4</cell>
+                     </row>
+                     <row>
+                        <cell>95</cell>
+                        <cell>25</cell>
+                        <cell>5</cell>
+                     </row>
+                     <row>
+                        <cell>96</cell>
+                        <cell>36</cell>
+                        <cell>6</cell>
+                     </row>
+                     <row>
+                        <cell>97</cell>
+                        <cell>17</cell>
+                        <cell>7</cell>
+                     </row>
+                     <row>
+                        <cell>98</cell>
+                        <cell>28</cell>
+                        <cell>8</cell>
+                     </row>
+                     <row>
+                        <cell>99</cell>
+                        <cell>39</cell>
+                        <cell>9</cell>
+                     </row>
+                     <row>
+                        <cell>1700</cell>
+                        <cell>20</cell>
+                        <cell>10</cell>
+                     </row>
+                     <row>
+                        <cell>1</cell>
+                        <cell>31</cell>
+                        <cell>11</cell>
+                     </row>
+                     <row>
+                        <cell>2</cell>
+                        <cell>12</cell>
+                        <cell>12</cell>
+                     </row>
+                     <row>
+                        <cell>3</cell>
+                        <cell>23</cell>
+                        <cell>13</cell>
+                     </row>
+                     <row>
+                        <cell>4</cell>
+                        <cell>34</cell>
+                        <cell>14</cell>
+                     </row>
+                     <row>
+                        <cell>5</cell>
+                        <cell>15</cell>
+                        <cell>15</cell>
+                     </row>
+                     <row>
+                        <cell>6</cell>
+                        <cell>26</cell>
+                        <cell>16</cell>
+                     </row>
+                     <row>
+                        <cell>7</cell>
+                        <cell>37</cell>
+                        <cell>17</cell>
+                     </row>
+                     <row>
+                        <cell>8</cell>
+                        <cell>18</cell>
+                        <cell>18</cell>
+                     </row>
+                     <row>
+                        <cell>9</cell>
+                        <cell>29</cell>
+                        <cell>19</cell>
+                     </row>
+                     <row>
+                        <cell>1710</cell>
+                        <cell>11</cell>
+                        <cell>1</cell>
+                     </row>
+                     <row>
+                        <cell>11</cell>
+                        <cell>22</cell>
+                        <cell>2</cell>
+                     </row>
+                     <row>
+                        <cell>12</cell>
+                        <cell>33</cell>
+                        <cell>3</cell>
+                     </row>
+                     <row>
+                        <cell>13</cell>
+                        <cell>14</cell>
+                        <cell>4</cell>
+                     </row>
+                     <row>
+                        <cell>14</cell>
+                        <cell>25</cell>
+                        <cell>5</cell>
+                     </row>
+                     <row>
+                        <cell>&amp;c.</cell>
+                        <cell>&amp;c.</cell>
+                        <cell>&amp;c.</cell>
+                     </row>
+                  </table>
+                  <pb n="80" facs="tcp:47808:45"/>
+                  <table>
+                     <row>
+                        <cell> </cell>
+                        <cell role="label" cols="3">
+                           <hi>Epacts,</hi> as in the Month of <hi>July,</hi> anſwering the <hi>Golden Numbers</hi> (and Days of the Month) as they ſtand in the Calendar.</cell>
+                     </row>
+                     <row>
+                        <cell role="label">
+                           <hi>Anno Dom.</hi>
+                        </cell>
+                        <cell role="label">
+                           <hi>Epacts</hi>
+                        </cell>
+                        <cell role="label">
+                           <hi>Golden Numb.</hi>
+                        </cell>
+                        <cell role="label">
+                           <hi>Month July.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>1709</cell>
+                        <cell>29</cell>
+                        <cell>19</cell>
+                        <cell>D.1</cell>
+                     </row>
+                     <row>
+                        <cell rows="2">1698</cell>
+                        <cell>28</cell>
+                        <cell>8</cell>
+                        <cell>2</cell>
+                     </row>
+                     <row>
+                        <cell rend="strikethrough">27</cell>
+                        <cell> </cell>
+                        <cell>+3</cell>
+                     </row>
+                     <row>
+                        <cell>1706</cell>
+                        <cell>26</cell>
+                        <cell>16</cell>
+                        <cell>4</cell>
+                     </row>
+                     <row>
+                        <cell rows="2">1695</cell>
+                        <cell>25</cell>
+                        <cell>5</cell>
+                        <cell>5</cell>
+                     </row>
+                     <row>
+                        <cell rend="strikethrough">24</cell>
+                        <cell> </cell>
+                        <cell>+6</cell>
+                     </row>
+                     <row>
+                        <cell>1703</cell>
+                        <cell>23</cell>
+                        <cell>13</cell>
+                        <cell>7</cell>
+                     </row>
+                     <row>
+                        <cell rows="2">1692</cell>
+                        <cell>22</cell>
+                        <cell>2</cell>
+                        <cell>8</cell>
+                     </row>
+                     <row>
+                        <cell rend="strikethrough">21</cell>
+                        <cell> </cell>
+                        <cell>+9</cell>
+                     </row>
+                     <row>
+                        <cell rows="2">1700</cell>
+                        <cell>20</cell>
+                        <cell>10</cell>
+                        <cell>10</cell>
+                     </row>
+                     <row>
+                        <cell rend="strikethrough">19</cell>
+                        <cell> </cell>
+                        <cell>+11</cell>
+                     </row>
+                     <row>
+                        <cell>1708</cell>
+                        <cell>18</cell>
+                        <cell>18</cell>
+                        <cell>12</cell>
+                     </row>
+                     <row>
+                        <cell rows="2">1697</cell>
+                        <cell>17</cell>
+                        <cell>7</cell>
+                        <cell>13</cell>
+                     </row>
+                     <row>
+                        <cell rend="strikethrough">16</cell>
+                        <cell> </cell>
+                        <cell>+14</cell>
+                     </row>
+                     <row>
+                        <cell>1705</cell>
+                        <cell>15</cell>
+                        <cell>15</cell>
+                        <cell>15</cell>
+                     </row>
+                     <row>
+                        <cell rows="2">1694</cell>
+                        <cell>14</cell>
+                        <cell>4</cell>
+                        <cell>16</cell>
+                     </row>
+                     <row>
+                        <cell rend="strikethrough">13</cell>
+                        <cell> </cell>
+                        <cell>+17</cell>
+                     </row>
+                     <row>
+                        <cell>1702</cell>
+                        <cell>12</cell>
+                        <cell>12</cell>
+                        <cell>18</cell>
+                     </row>
+                     <row>
+                        <cell rows="2">1691</cell>
+                        <cell>11</cell>
+                        <cell>1</cell>
+                        <cell>19</cell>
+                     </row>
+                     <row>
+                        <cell rend="strikethrough">10</cell>
+                        <cell> </cell>
+                        <cell>+20</cell>
+                     </row>
+                     <row>
+                        <cell rows="2">1699</cell>
+                        <cell>9</cell>
+                        <cell>9</cell>
+                        <cell>21</cell>
+                     </row>
+                     <row>
+                        <cell rend="strikethrough">8</cell>
+                        <cell> </cell>
+                        <cell>22</cell>
+                     </row>
+                     <row>
+                        <cell>1707</cell>
+                        <cell>7</cell>
+                        <cell>17</cell>
+                        <cell>+23</cell>
+                     </row>
+                     <row>
+                        <cell rows="2">1696</cell>
+                        <cell>6</cell>
+                        <cell>6</cell>
+                        <cell>24</cell>
+                     </row>
+                     <row>
+                        <cell rend="strikethrough">5</cell>
+                        <cell> </cell>
+                        <cell>+25</cell>
+                     </row>
+                     <row>
+                        <cell>1704</cell>
+                        <cell>4</cell>
+                        <cell>14</cell>
+                        <cell>26</cell>
+                     </row>
+                     <row>
+                        <cell rows="2">1693</cell>
+                        <cell>3</cell>
+                        <cell>3</cell>
+                        <cell>27</cell>
+                     </row>
+                     <row>
+                        <cell rend="strikethrough">2</cell>
+                        <cell> </cell>
+                        <cell>+28</cell>
+                     </row>
+                     <row>
+                        <cell rows="2">1701</cell>
+                        <cell>1</cell>
+                        <cell>11</cell>
+                        <cell>29</cell>
+                     </row>
+                     <row>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell>+30</cell>
+                     </row>
+                     <row>
+                        <cell>1709</cell>
+                        <cell>29</cell>
+                        <cell>19</cell>
+                        <cell>31</cell>
+                     </row>
+                  </table>
+               </p>
+               <pb n="81" facs="tcp:47808:45"/>
+               <p>So that, as the Epact is (<hi>i. e.</hi> the number of days, by which the end of the Moon's 12 Months, at the end of the Solar year, is found to fall ſhort of the Sun's New year:) So is the courſe of the Moon, or her diſtance from the Sun, accounted for the whole enſuing year, and for every Nine<g ref="char:EOLhyphen"/>teenth year after for ever, as was ſup<g ref="char:EOLhyphen"/>poſed.</p>
+               <p>And the Golden Number is the <hi>In<g ref="char:EOLhyphen"/>dex,</hi> or <hi>Character</hi> of the Epacts, in a perpetual Cycle; to find which of thoſe 19 years, the preſent, or any gi<g ref="char:EOLhyphen"/>ven year is: and conſequently, what is then the Epact; and ſo ſhews for ever the yearly courſe of the Moon in relation to the Sun.</p>
+               <p>The Golden Number being the <hi>In<g ref="char:EOLhyphen"/>dex,</hi> and Cycle of Epacts, the prin<g ref="char:EOLhyphen"/>cipal uſe of it is, to find the Epacts; and ſo they both ſerve indifferently for the Accounts of the Moon, and furniſh you with many uſefull Rules
+<pb n="82" facs="tcp:47808:46"/>and Tables for ſeveral purpoſes. As, by the Golden Number, and Domi<g ref="char:EOLhyphen"/>nical Letter given, to find <hi>Eaſter</hi>-day for ever. Such a Table you have before the Book of Common-Prayer. By the Epact, and Day of the month, is found the Diſtance at any time, how many days the Moon is from the Sun. It is thus applied to find the Moon's Age; <hi>i. e.</hi> how many days are paſt ſince the laſt Conjunction; which ſhews withall how near ſhe is to her Quarters, Full, or next New<g ref="char:EOLhyphen"/>moon; and is uſefull to find her co<g ref="char:EOLhyphen"/>ming to the South, and conſequently the Tides, <hi>&amp;c.</hi>
+               </p>
+               <p>The Moon's age is thus found, for any given day of any Month: Add to the Epact, the Day of the month, and the <hi>Ordinal</hi> Number of that month from <hi>March</hi> incluſive, (becauſe the E<g ref="char:EOLhyphen"/>pact begins at <hi>March</hi>) and the Sum of theſe (caſting away 30, or 29, as often as it ariſeth) is the Age of the
+<pb n="83" facs="tcp:47808:46"/>Moon. <hi>Ex. gr. Febr.</hi> 2.1691/2: to find the Moon's Age, ſay thus; Epact 11, Day of month 2, Month from <hi>March</hi> 12; Sum of theſe 25: The Moon is then 25 days old. Again, if it be ſought <hi>March</hi> 25, 1692: Epact 22, Day of month 25, Month 1; in all 48; caſt away 30, and 18 is the Moon's Age.</p>
+               <p>The reaſon why you are ſo to reckon the Months (from <hi>March</hi>) by addition of an Unite, every ſuc<g ref="char:EOLhyphen"/>ceeding Month, is; becauſe the Moon's year of Twelve Months, being 11 days ſhorter than that of the Sun; it is in effect a Day for every Month, which is thus accounted for.</p>
+               <p>You ſee then, the chief uſe of the Epacts is (as well as we can) to re<g ref="char:EOLhyphen"/>concile the Twelve Months of the Moon to the Sun's year, or Twelve<g ref="char:EOLhyphen"/>month; and to meaſure every ſingle Lunar month all along, by the days of the Solar month; <hi>i. e.</hi> to make any day of any Solar month ſo to
+<pb n="84" facs="tcp:47808:47"/>correſpond, by help of the Epacts, as to ſhew the preſent day of the Month of the Moon, which day, according to the number of it, is called the Age of the Moon: which might have ſuc<g ref="char:EOLhyphen"/>ceeded a little better, if it had pleaſed the Inſtitutors of the Civil Months of the Sun, to have ordered and pla<g ref="char:EOLhyphen"/>ced them alternately odd and even; of 31 and 30 days, beginning (ſup<g ref="char:EOLhyphen"/>poſe) at <hi>March,</hi> and ending at <hi>Febru<g ref="char:EOLhyphen"/>ary:</hi> And <hi>February</hi> in Common years to have 29 days, and in the Leap-year, 30. But ſince the old way ob<g ref="char:EOLhyphen"/>tains by Preſcription, we muſt follow it, though with ſome inconveniency.</p>
+               <p>The foregoing Rule, to find the Age of the Moon at all times, on a<g ref="char:EOLhyphen"/>ny day of any Solar month, cannot ſhew preciſely an exact account of the Moon, becauſe of the Inequality of the Motions of the Sun, and of the Moon, and of the Number of days of the Solar months; though the laſt of
+<pb n="85" facs="tcp:47808:47"/>theſe is ſomewhat helped by obſerving the old Rule, <hi>Impar Luna pari, Par fi<g ref="char:EOLhyphen"/>at in Impare Menſe; i. e.</hi> by caſting out, for a whole Month of the Moon (when there is occaſion) 29, in So<g ref="char:EOLhyphen"/>lar months of 30 days; and 30, when the Month conſiſts of 31 days. I ſay, though the aforeſaid Rule is not exact, yet it comes ſo near, that it is very fit and neceſſary for common uſe; being always at hand, or in me<g ref="char:EOLhyphen"/>mory.</p>
+               <p>If the Lunations be obſerved, and ſet down for a whole courſe of the Golden Number, or Cycle of 19 years, which is the Cycle of the Moon; the ſame Obſervations will ſerve, and be verified, through the next Cycle of 19 years, in the ſame order; and ſo on for ſucceeding Cycles, (as hath been ſuppoſed) for ever.</p>
+               <p>And therefore the Golden Number, in the firſt Column of the Calendar, before the Book of Common-Prayer,
+<pb n="86" facs="tcp:47808:48"/>is, as a Rule for ever, ſet before the Day of each Month, in which the Change or Conjunction of the Moon ſhall happen; whenſoever ſuch is the Golden Number, as is there ſet down. As, if you look, <hi>ex. gr.</hi> upon the Month of <hi>July,</hi> you will ſee 19 be<g ref="char:EOLhyphen"/>fore, or againſt the firſt day, 8 be<g ref="char:EOLhyphen"/>fore the ſecond, 16 before the fourth, 5 before the fifth, <hi>&amp;c.</hi> That is, when<g ref="char:EOLhyphen"/>ſoever the Golden Number is 19, there will be New-moon on the firſt day of <hi>July;</hi> when 8, on the ſecond; if 16, on the fourth; if 5, then on the fifth day; <hi>&amp;c.</hi>
+               </p>
+               <p>And though, in the aforeſaid Co<g ref="char:EOLhyphen"/>lumn, the Numbers which denote the Golden Number, ſeem to ſtand confuſedly, without any order; 19, 8, (and after a ſpace between) 16, 5; yet they preciſely follow the Pro<g ref="char:EOLhyphen"/>greſſive order of the Epacts, of which they are but <hi>Indices;</hi> beginning at the greateſt Epact, <hi>viz.</hi> 29, and ſo de<g ref="char:EOLhyphen"/>ſcending
+<pb n="87" facs="tcp:47808:48"/>in order till they come to the leaſt, <hi>viz.</hi> 1: as you may ſee in the two middle Columns of the ſecond Table preceding; where the Golden Numbers, 19, 8, 16, 5, 13, 2, 10, <hi>&amp;c.</hi> are <hi>Indices</hi> of the Epacts in order, <hi>viz.</hi> 29, 28, 26, 25, 23, 22, 20, <hi>&amp;c.</hi>
+               </p>
+               <p>And the reaſon why they fall in that order in the Calendar, from the greateſt Epacts progreſſively to the leaſt, is; becauſe the greateſt Epacts denote a greater diſtance of the Moon behind the Sun, and conſequently a more Remote approach to her Con<g ref="char:EOLhyphen"/>junction. Therefore the <hi>Indices</hi> of theſe Epacts are ſet earlier in the Calen<g ref="char:EOLhyphen"/>dar of the Sun's Month, to keep ſome accord, (as the Sun's longer and Un<g ref="char:EOLhyphen"/>even Months will permit) between the Moon's Month, and that of the Sun. And, for the ſame reaſon, as the Epacts decreaſe, ſo they fall la<g ref="char:EOLhyphen"/>ter in the Calendar month. If you find one, or two, or more of the
+<pb n="88" facs="tcp:47808:49"/>leſs <hi>Epacts</hi> ſet in the beginning; and one, or two, or more greater at the end of the Calendar-month: it hap<g ref="char:EOLhyphen"/>pens through the Inequality of the Moon's and Sun's Months.</p>
+               <p>If you ask, Why there are void Spa<g ref="char:EOLhyphen"/>ces in that firſt Column of the Ca<g ref="char:EOLhyphen"/>lendar, ſome days of the Month ha<g ref="char:EOLhyphen"/>ving no Golden Numbers ſet againſt them? You muſt remember and conſider, that there are no more Va<g ref="char:EOLhyphen"/>rieties of <hi>Epacts</hi> than 19, ſo meaſured by the Golden Number, and they a<g ref="char:EOLhyphen"/>riſe out of their Annual Progreſſion by 11, till you go through all Vari<g ref="char:EOLhyphen"/>ations, and begin again at 11; which is done in 19 Progreſſions, or 19 years, as you may ſee in the firſt Table.</p>
+               <p>So that they are but enough to ſet againſt 19 days of 29, in the Calen<g ref="char:EOLhyphen"/>dar; and 10 of the days <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>aving no <hi>Epact,</hi> can have no Golden Number againſt them.</p>
+               <p>Take an inſtance of the Month of
+<pb n="89" facs="tcp:47808:49"/>
+                  <hi>July,</hi> in the ſecond Table; the Days whereof are ſet Laterally after and a<g ref="char:EOLhyphen"/>gainſt the Columns of Golden Num<g ref="char:EOLhyphen"/>ber, and of <hi>Epacts,</hi> and of the corre<g ref="char:EOLhyphen"/>ſpondent years of our Lord, within one Cycle.</p>
+               <p>Now, there are no <hi>Epacts</hi> in the aforeſaid Progreſſion by 11, which happen to fall on any of theſe ten Numbers following; <hi>viz.</hi> 27, 24, 21, 19, 16, 13, 10, 8, 5, 2. So that thoſe Days of that Month, where thoſe Numbers ſhould in order fall, be<g ref="char:EOLhyphen"/>cauſe they have no <hi>Epact,</hi> can have no Golden Number ſet before them: and therefore that Space is left void, <hi>viz.</hi> as to this Month of <hi>July,</hi> the 3<hi rend="sup">d</hi>, 6, 9, 11, 14, 17, 20, 22, 25, 28th days, (and 30th of the next Cycle.) By which you may plainly ſee the reaſon of thoſe void Spaces in this, or any other Month, of the Eccleſiaſtical Calendar.</p>
+               <p>It was ſaid before, that the Rule to find the Moon's Age, is not <hi>Pre<g ref="char:EOLhyphen"/>ciſe:</hi>
+                  <pb n="90" facs="tcp:47808:50"/>and the reaſon is, partly becauſe of the Inequality of her Motion, ſome<g ref="char:EOLhyphen"/>times ſwifter, ſometimes ſlower: and partly becauſe of the Sun's unequal Motion; and partly becauſe of the odd meaſure of the Solar year, ſpoken of before. So that I may ſay, No Ge<g ref="char:EOLhyphen"/>neral Rule, in theſe Caſes, without Limitations, and Equations, can be exact. I will inſiſt only on the laſt Incumbrance; <hi>viz.</hi> the odd meaſure of the Solar year; I mean the odd, or Supernumerary, 6 hours; which are not accounted in the three years after the Leap-year, which (as I ſaid) con<g ref="char:EOLhyphen"/>ſiſts of no more than 365 days, with<g ref="char:EOLhyphen"/>out the odd ſix hours.</p>
+               <p>Suppoſe you apply this Rule to find the Moon's Age, and ſuppoſe it exactly true (which indeed it is not) for any Day, or Month, in a year that is the firſt year after <hi>Biſſextile;</hi> you will find it not agree exactly to the ſucceeding three years.
+<pb n="91" facs="tcp:47808:50"/>For the ſecond year after <hi>Biſſextile,</hi> takes his beginning ſix hours before the end of the foregoing year be fulfilled: Therefore the Computations of the Motions and Places of the Sun and Moon will be ſix hours earlier all that year, than they will be pointed at by the Rule: And, for the ſame reaſon, in the next year, <hi>viz.</hi> the third after Leap-year, the Sun and Moon's places will be computed twelve hours ſooner; and in the Leap-year, for the former two Months, <hi>viz.</hi> till after the <hi>Interca<g ref="char:EOLhyphen"/>lar</hi> day, 18 hours ſooner; and in the remainder of that year, ſix hours la<g ref="char:EOLhyphen"/>ter.</p>
+               <p>You ſee how conſiderable it is, in which of theſe four years, you make uſe of Rules, or Tables, for the Hea<g ref="char:EOLhyphen"/>venly motions; becauſe there may be near 6, or 12, or 18 hours difference in the true Age of the Moon, from the time aſſigned by the Rule. And the like happens to the computation
+<pb n="92" facs="tcp:47808:51"/>of the Sun's entrance into the four Car<g ref="char:EOLhyphen"/>dinal Signs, and of his whole yearly Progreſs in the Leap-year, and the three years after it reſpectively; and ſo likewiſe of the other Planets.</p>
+            </div>
+            <div n="7" type="chapter">
+               <head>CHAP. VII.</head>
+               <argument>
+                  <p>
+                     <hi>An Important defect in</hi> Eccleſiaſtical <hi>Computations by the</hi> Nicene <hi>Rule, a<g ref="char:EOLhyphen"/>riſing from hence; that the Golden Number does not exactly meaſure the Moon's Cycle. § The Sun's Account above ten days too late, and the Moon's above four; and needs Rectification.</hi>
+                  </p>
+               </argument>
+               <p>BUT beſides theſe Aſtronomical Intricacies of Calculation, which I have tranſiently mentioned; there remains one moſt conſiderable, Im<g ref="char:EOLhyphen"/>portant Defect, in Eccleſiaſtical Com<g ref="char:EOLhyphen"/>putations after the <hi>Nicene</hi> Rule, in re<g ref="char:EOLhyphen"/>lation to the Moon.</p>
+               <pb n="93" facs="tcp:47808:51"/>
+               <p>For the Golden Number does not ſo exactly comply with and meaſure the Moon's Cycle, but that there is found an <hi>Anomaly,</hi> (like that of the Sun's <hi>Anticipation</hi> of 10′. 44″.) For though the Moon in 19 years ſeems to renew her ſame courſe reſpective to the Sun, yet it is found, ſhe falls ſhort in that time almoſt an hour and half, which in 16 <hi>Decennoval</hi> Cycles amount to 24 hours, or a Na<g ref="char:EOLhyphen"/>tural Day; <hi>viz.</hi> 16 hours, and 16 half hours: And thus, 16 Cycles are compleated in 304 years, or ra<g ref="char:EOLhyphen"/>ther, as ſome more accurately ſeem to calculate, in 312 years; making the <hi>Anticipation</hi> of the Moon, at the end of every Cycle, to be ſomewhat leſs, <hi>viz.</hi> 1<hi rend="sup">H</hi>, 27′, 32″, 42‴.</p>
+               <p>Now, as the <hi>Nicene</hi> Council fixed the Equinox, upon the 21 of <hi>March,</hi> for the finding out of <hi>Eaſter,</hi> which has cauſed the Miſguidance from the Sun, which we lie under, in reſpect
+<pb n="94" facs="tcp:47808:52"/>of <hi>Eaſter,</hi> and the moveable Feaſts: ſo the fame Council likewiſe fixed the Accounts of the Moon, upon the Cycle of the Golden Number, as it then pointed out the Lunations, and therefore placed it in the Calendar, for a perpetual Rule (as is ſaid before.)</p>
+               <p>But now we find (for the reaſons before aſſigned) that the Golden Num<g ref="char:EOLhyphen"/>ber, ſo fixed, gives us the New-moon's, and Full, and other Accounts of the Moon, more than four days too late; by reaſon of the aforeſaid <hi>Anticipation,</hi> and our neglect of it: Which alſo wants Reformation, like that which is attempted in the <hi>Gregorian</hi> Calen<g ref="char:EOLhyphen"/>dar.</p>
+               <p>For, at this time, the Sun's Ac<g ref="char:EOLhyphen"/>count, by our old <hi>Julian</hi> year, is a<g ref="char:EOLhyphen"/>bove ten Days too late: and that of the Moon above four Days. When therefore the Accounts of the Moon are alſo rectified and reformed, and the Golden Numbers once rightly ap<g ref="char:EOLhyphen"/>plyed
+<pb n="95" facs="tcp:47808:52"/>to the Days of the Months; they may be kept ſo, for many Ages, and kept right; by allowing one day at every end of 312 years, for an E<g ref="char:EOLhyphen"/>quation of the Moon's Cycle.</p>
+               <p>The Council of <hi>Nice</hi> was celebra<g ref="char:EOLhyphen"/>ted <hi>Anno Domini</hi> 325; ſince which there have paſſed four times 312 years, to the year 1573: which then cauſed an Error of four Days, and was reformed ſoon after, <hi>viz.</hi> 1582. From thence, <hi>viz.</hi> 1573, to this pre<g ref="char:EOLhyphen"/>ſent year 1693, there have paſſed 120 years; which contain ſix Cycles of the Moon, and ſix years Currant, which cauſe a farther <hi>Anticipation</hi> of almoſt nine hours. So much the Rule, by the Golden Number, aſſigns the <hi>Aſpects</hi> of the Moon to the Sun la<g ref="char:EOLhyphen"/>ter, than by true account they are found to be.</p>
+               <p>Therefore, in the aforeſaid firſt Column, in the Calendar before our Book of Common-Prayer, in any of
+<pb n="96" facs="tcp:47808:53"/>the Months, having found out, a<g ref="char:EOLhyphen"/>mongſt thoſe Figures of that Column, the Golden Number for the preſent year; inſtead of the Day of the Month over againſt it, reckon four Days and nine Hours before it, and you have the Day of the Moon for Common uſe: or, which amounts to the ſame, reckon that Day of the Month which has the Golden Number belonging to it (over againſt it) for the fifth Day of the Moon's Age.</p>
+               <p>Thus much hath been ſaid of the Accounts of the Sun and Moon, prin<g ref="char:EOLhyphen"/>cipally for the better underſtanding of our Calendar; which being con<g ref="char:EOLhyphen"/>ſtituted after the old <hi>Julian</hi> year, we may ſee what need there is of Rectify<g ref="char:EOLhyphen"/>ing it from thoſe <hi>Anomalies,</hi> which in this long tract of time, ſince the <hi>Ni<g ref="char:EOLhyphen"/>cene</hi> Council, have crept into it; tend<g ref="char:EOLhyphen"/>ing to the diſplacing of the Seaſons of the year, and miſplacing the Fe<g ref="char:EOLhyphen"/>ſtivals of the Church: And to ſhew
+<pb n="97" facs="tcp:47808:53"/>alſo the Grounds and Reaſons of the Cycle of the Moon's <hi>Epacts, viz.</hi> the Golden Number; which ſo often oc<g ref="char:EOLhyphen"/>currs to us, and of which we may make ſo frequent and continual uſe.</p>
+            </div>
+            <div n="8" type="chapter">
+               <head>CHAP. VIII.</head>
+               <argument>
+                  <p>
+                     <hi>Concluſion; containing ſome ſhort Obſer<g ref="char:EOLhyphen"/>vations, and Practical Deductions. § With a brief Account of the</hi> Au<g ref="char:EOLhyphen"/>thor<hi>'s New</hi> Hypotheſis, <hi>concerning the</hi> Natural Production <hi>and</hi> Diffe<g ref="char:EOLhyphen"/>rences of the Letters of the Alpha<g ref="char:EOLhyphen"/>bet; <hi>relating to a Treatiſe formerly Publiſhed by him,</hi> Of the Elements of Speech: <hi>Of which the</hi> Contents <hi>alſo are annexed.</hi>
+                  </p>
+               </argument>
+               <p>FRom what hath been ſaid, the Reader may (amongſt other things) obſerve the Agreements, and Differences of the Meaſures of Time,
+<pb n="98" facs="tcp:47808:54"/>to, and from thoſe other Material Per<g ref="char:EOLhyphen"/>manent Meaſures of Diſtance, and Capacity, and Weight, firſt ſpoken of.</p>
+               <p>And that, of the Meaſures of Time, ſome are Natural and Univerſal; and ſome Arbitrary and Artificial, and confined diverſly to ſeveral Nations.</p>
+               <p>The <hi>Noctidial</hi> Day, the Lunar <hi>Pe<g ref="char:EOLhyphen"/>riodic</hi> Month, and the Solar Year are Natural and Univerſal; but Incom<g ref="char:EOLhyphen"/>menſurate each to other, and difficult to be reconciled: Yet we are con<g ref="char:EOLhyphen"/>ſtrained to make uſe of them, as Meaſures to one another, reducing the Diſagreements; by Obſerving, and Collecting, and allowing for their Differences.</p>
+               <p>Other Meaſures, as Hour, Week, Month of Weeks, Solar Calendar Months, are more Artificial and Ar<g ref="char:EOLhyphen"/>bitrary, for the uſe of Common Life; and ſerve for Meaſures, by Public Sanction, Conſent, and Uſage of ſo many Nations as are agreed to them,
+<pb n="99" facs="tcp:47808:54"/>and ſo are made very uſefull, by which to meaſure the other: The former alſo, though Natural and U<g ref="char:EOLhyphen"/>niverſal, yet are ſubject to the like Re<g ref="char:EOLhyphen"/>gulations.</p>
+               <p>If we meaſure the Year by Days, there will be found a Remainder at laſt of about ſix Hours above 365 Days; Whence <hi>Julius Caeſar</hi> ordained, that in the Account of Years, the odd 6 Hours ſhould be omitted in the Firſt, and a Second, and a Third Year, and collected every Fourth Year; adding the <hi>Biſſextile</hi>-day to that year. So you ſee we follow a Calendar not exactly true in Nature, nor Equal, but Arti<g ref="char:EOLhyphen"/>ficially contrived for common Uſe, by the <hi>Julian</hi> Inſtitution.</p>
+               <p>And the Calendar Months are like<g ref="char:EOLhyphen"/>wiſe Arbitrarily, and Unequally ſet<g ref="char:EOLhyphen"/>led by the ſame Power; by which Months we to this day Account, and they meaſure, and make up that which we call the <hi>Julian</hi> year.</p>
+               <pb n="100" facs="tcp:47808:55"/>
+               <p>Now take a ſhort Review of ſome Meaſures relating to the Calendar, which have been more largely treat<g ref="char:EOLhyphen"/>ed in the foregoing Diſcourſe.</p>
+               <p>Meaſure the Year by Days; and the remaining odd Part of a Day, which <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, or <hi>Numero rotun<g ref="char:EOLhyphen"/>do,</hi> is accounted ſix hours, ſhews the Reaſon of the <hi>Biſſextile,</hi> or Leap-year.</p>
+               <p>Again, Meaſure the Year by Weeks'; and the remaining odd Day, for three Years ſucceſſively, and two odd Days in the fourth, or Leap-year, ſhew the Reaſon of the yearly Change of the <hi>Dominical Letter,</hi> and the Nature and Uſe of the Cycle of the Sun, which is 28.</p>
+               <p>Again, Meaſure the Year by Lu<g ref="char:EOLhyphen"/>nar <hi>Synodic</hi> Months; and the remain<g ref="char:EOLhyphen"/>ding 11 days, by which 12 Lunar months fall ſhort of the Solar year, make the <hi>Epacts,</hi> and ſhew the Rea<g ref="char:EOLhyphen"/>ſon of their Obſervation and Uſe.</p>
+               <pb n="101" facs="tcp:47808:55"/>
+               <p>Again, Purſue and Obſerve all the Variations of <hi>Epacts,</hi> till they return to the ſame again; and you will find that Revolution to be made at the end of every Ninteenth year: which Number of Nineteen conſtitutes the Cycle of the Moon, <hi>viz.</hi> the <hi>Golden Number.</hi> And thus proceeds our <hi>Ju<g ref="char:EOLhyphen"/>lian</hi> year.</p>
+               <p>But then, Conſider more narrow<g ref="char:EOLhyphen"/>ly, that the odd Hours at the end of the Solar Year, are not indeed ful<g ref="char:EOLhyphen"/>ly ſix, but are deficient 10′, 44″; which Deficiency in 134 years (col<g ref="char:EOLhyphen"/>lected) amounts to a whole Day. And hence may be ſeen the Reaſon, why the <hi>Vernal Equinox,</hi> which at the time of the <hi>Nicene</hi> Council fell upon the 21<hi rend="sup">ſt</hi> of <hi>March,</hi> falls now above 10 days ſooner; <hi>viz.</hi> about the 10th of <hi>March:</hi> which was one Reaſon of the <hi>Gregorian</hi> Reformation of the Ca<g ref="char:EOLhyphen"/>lendar.</p>
+               <pb n="102" facs="tcp:47808:56"/>
+               <p>Again, Conſider, that the Golden Number does not perfectly corre<g ref="char:EOLhyphen"/>ſpond with ſo many Revolutions of the Moon, as are made in that time; but the Period of thoſe Revolutions is accompliſhed in ſomewhat leſs ſpace than full 19 years; <hi>viz.</hi> near an hour and half ſooner: which ſets her back ſo much in every Cycle; and, collected, amounts to a whole day in about 312 years; which is called the <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, or <hi>Anticipation</hi> of the Moon. So that, following the Accounts of the Moon, as dire<g ref="char:EOLhyphen"/>cted by that perpetual Cycle of the Moon, called the Golden Number, placed for that purpoſe at the <hi>Nicene</hi> Council, before, and along the Ec<g ref="char:EOLhyphen"/>cleſiaſtic Calendar, and continued ſtill in ours; we now find above four days difference; <hi>viz.</hi> ſo much later than the true Account, which was a<g ref="char:EOLhyphen"/>nother Reaſon of the Reformation of the Calendar.</p>
+               <pb n="103" facs="tcp:47808:56"/>
+               <p>Remember laſtly, what has been obſerved before, (to ſhew the pow<g ref="char:EOLhyphen"/>er of <hi>Legiſlative</hi> Authority, and Con<g ref="char:EOLhyphen"/>ſent, and Practice, in ordering and uſing Meaſures.) That the Meaſure of the Year by Solar months, as con<g ref="char:EOLhyphen"/>ſtituted by <hi>Julius Caeſar,</hi> and a little al<g ref="char:EOLhyphen"/>tered by <hi>Auguſtus,</hi> his Succeſſor; tho' it be Irregular, Imperfect, Unequal, and wholly Artificial, having little agreement with the Natural Meaſures of Time: Yet becauſe it is made to conſiſt of <hi>Integer</hi> days, and conſe<g ref="char:EOLhyphen"/>quently more eaſie and Certain to be applied; <hi>viz.</hi> Days to Months, and Months to Years: is become, by the help of Authentic Calendars, one of the Principal Meaſures of Time for Common uſe; eſpecially when joined with the other.</p>
+               <p>We meaſure the Beginning, and Progreſs, and End of the Year, by theſe Months, and the Days of which they conſiſt; we Date all Affairs, A<g ref="char:EOLhyphen"/>ctions,
+<pb n="104" facs="tcp:47808:57"/>and Accidents of Humane Life, and Reflect back upon them, by the help of this certain Cha<g ref="char:EOLhyphen"/>racter of Time, when joyned with other Meaſures: as, Such a Day of ſuch a Month, of ſuch a Year in ſome certain Period or <hi>Epocha. Ex. gr.</hi> King <hi>CHARLES</hi> the Second was Crowned on the 23d Day of the Month of <hi>April,</hi> in the Year of our Vulgar Chriſtian <hi>Aera</hi> 1661; and the time elapſed to this, is ſo many Years, Months, and Days; as may be found by Computing. Likewiſe for time to come; There will be an Eclipſe of the Moon, the 27th Day of <hi>June,</hi> 1694.</p>
+               <p>Theſe are eaſie and uſefull known Characters of Time, deduced from thoſe Meaſures ſetled by Authority, and Uſe: And in all Ages, where they did not all Compute by Weeks, yet ſtill the Year was meaſured by Months, though ſometimes by Solar,
+<pb n="105" facs="tcp:47808:57"/>and ſometimes by Lunar Months; and differently ordered, as it pleaſed the Authors of thoſe Conſtitutions.</p>
+               <p>And, if the Reader, by all that has been ſaid, find the Satisfaction of ſeeing plainly the Reaſons, and Na<g ref="char:EOLhyphen"/>ture, and Uſe of the Meaſures for Time; and of the Conſtitutions, and Alterations, and Reformations of thoſe Meaſures: it is what the Author de<g ref="char:EOLhyphen"/>ſigned.</p>
+               <p>To that end, this Diſcourſe has been carried on with all poſſible plain<g ref="char:EOLhyphen"/>neſs, ſuitable to thoſe, for whoſe ſake it is made Public: the Author not pretending, nor owning ability to perform great Matters in this kind, or any other; or to make new Diſ<g ref="char:EOLhyphen"/>coveries. Though on another Sub<g ref="char:EOLhyphen"/>ject, concerning the <hi>Letters</hi> of the <hi>Al<g ref="char:EOLhyphen"/>phabet,</hi> more accurately conſidered by him, for a further End than a bare <hi>Philoſophical</hi> Contemplation on the <hi>Al<g ref="char:EOLhyphen"/>phabet; viz.</hi> The Application of it to
+<pb n="106" facs="tcp:47808:58"/>a Dumb Perſon, then with him in his houſe; which obliged, and urged him to more Sedulity in bending his Thoughts upon it, ſuch as are ſince publiſhed, <hi>Anno</hi> 1669, in a Treatiſe <hi>Of the Elements of Speech:</hi> He thinks he may, without Vanity, becauſe not without ſufficient Provocation, Com<g ref="char:EOLhyphen"/>mend, and Submit to the Readers im<g ref="char:EOLhyphen"/>partial judgment, a certain new <hi>Hypo<g ref="char:EOLhyphen"/>theſis</hi> of the Natural Production, and Differences of the <hi>Letters</hi> of the <hi>Alpha<g ref="char:EOLhyphen"/>bet:</hi> Reducing all different <hi>Articulations</hi> of <hi>Conſonants</hi> (to inſtance in them) made by the <hi>Organs</hi> of Speech, to the Num<g ref="char:EOLhyphen"/>ber of Nine, and Supplying the Eſſen<g ref="char:EOLhyphen"/>tial Differences of the remaining Num<g ref="char:EOLhyphen"/>ber of thoſe <hi>Letters,</hi> by finding out 4 ſufficient Diſcriminations of <hi>Letters,</hi> from their <hi>Material</hi> Part, <hi>i.e. Sound,</hi> which is <hi>Articulated;</hi> there being four Differences of <hi>Sound</hi> which go to the making of <hi>Letters: viz.</hi> Breath <hi>Oral,</hi> (as in Whiſpering) Voice <hi>Oral,</hi> Breath
+<pb n="107" facs="tcp:47808:58"/>
+                  <hi>Ore-Naſal,</hi> and Voice <hi>Ore-Naſal.</hi> Thus P, B, M, and a <hi>Spirital</hi> M‘, (which is not in uſe) are diſtinguiſhed by thoſe Differences of <hi>Sound,</hi> though they all have the ſame, and but one <hi>Articula<g ref="char:EOLhyphen"/>tion</hi> by the <hi>Organs</hi> of Speech. Like as we may, with one <hi>Seal,</hi> Impreſſed up<g ref="char:EOLhyphen"/>on Wax of four ſeveral Colours, (ſup<g ref="char:EOLhyphen"/>poſe Yellow, and Green, and Red, and Black) make four as different <hi>Signs,</hi> as from four different <hi>Seals</hi> up<g ref="char:EOLhyphen"/>on the ſame Coloured Wax.</p>
+               <p>Thus, Every ſingle <hi>Articulation,</hi> Im<g ref="char:EOLhyphen"/>preſſed upon thoſe four diſtinct <hi>Matters</hi> of <hi>Sound,</hi> produceth four diſtinct <hi>Con<g ref="char:EOLhyphen"/>ſonant Letters,</hi> which ought to be ran<g ref="char:EOLhyphen"/>ged in every ſingle <hi>Claſſis</hi> of <hi>Articulati<g ref="char:EOLhyphen"/>on.</hi> Thus to one and the ſame <hi>Arti<g ref="char:EOLhyphen"/>culation</hi> by the Lips, belong B, P, M, M', and differ only in <hi>Sound,</hi> as hath been ſaid. Now nine <hi>Articulations</hi> Im<g ref="char:EOLhyphen"/>preſſed upon four ſorts of different <hi>Matter</hi> of <hi>Sound,</hi> make in all thirty ſix <hi>Conſonants,</hi> wherein are compriſed all
+<pb n="108" facs="tcp:47808:59"/>poſſible <hi>Conſonants</hi> uſed by any Na<g ref="char:EOLhyphen"/>tion in the World: And they do Orderly, and Equally fill up the <hi>Abacus,</hi> and <hi>Claſſes</hi> of <hi>Conſonants.</hi> Like as nine diſtinct <hi>Seals,</hi> Impreſſed upon four ſorts of Wax, <hi>viz.</hi> of four ſeveral Colours, may ſerve to make thirty ſix Senſible Diſcriminati<g ref="char:EOLhyphen"/>ons for <hi>Signs,</hi> to be agreed upon for Mutual Communication. For, the Impreſſion of a Lyon upon Black<g ref="char:EOLhyphen"/>wax will differ from that which is made upon Red, as ſenſibly as a Lyon differs from a Boar on the ſame coloured Wax. We may im<g ref="char:EOLhyphen"/>pute the <hi>Formal</hi> Differences to the nine <hi>Seals</hi> which give the Impreſſion, and the Differences <hi>Material,</hi> to the four ſorts of Wax which receive them: re<g ref="char:EOLhyphen"/>ſembling the 9 <hi>Articulations</hi> in Speech, giving <hi>Form;</hi> and four ſorts of <hi>Sound,</hi> being the <hi>Material</hi> Part, which re<g ref="char:EOLhyphen"/>ceives the Impreſſions of the <hi>Articula<g ref="char:EOLhyphen"/>ting</hi> Motions.</p>
+               <pb n="109" facs="tcp:47808:59"/>
+               <p>Whereas other Writers on this Sub<g ref="char:EOLhyphen"/>ject, taking for granted, the Number of <hi>Articulations</hi> to be equal to the Number of <hi>Letters,</hi> each <hi>Letter</hi> having a pecu<g ref="char:EOLhyphen"/>liar diſtinct <hi>Articulation;</hi> in their Ta<g ref="char:EOLhyphen"/>ble, or <hi>Abacus</hi> of <hi>Letters,</hi> rank ſome of thoſe <hi>Letters</hi> in <hi>Ternaries,</hi> ſome in <hi>Pairs,</hi> and let ſome ſtand Single; not giving any Reaſon for the void Spa<g ref="char:EOLhyphen"/>ces in the <hi>Abacus,</hi> nor for the Order in which they are placed: Except, as to the latter, by referring to the Parts of the Mouth, where the <hi>Articulations</hi> are formed; beginning, <hi>ex. gr.</hi> at the <hi>Labial Letters,</hi> of which they find three, and ſuppoſe them to be framed by three ſeveral <hi>Articulations</hi> by the Lips; whereas there is indeed but one <hi>Articulation,</hi> which differenceth the <hi>La<g ref="char:EOLhyphen"/>bial Letters</hi> from thoſe made by other <hi>Organs;</hi> but between themſelves, theſe three are differenced by the <hi>Matter</hi> of <hi>Sound Articulated.</hi>
+               </p>
+               <pb n="110" facs="tcp:47808:60"/>
+               <p>Then, rejecting, and laying aſide ſuch <hi>Letters</hi> of thoſe thirty ſix, as are not Gracefull, nor Eaſie to be pro<g ref="char:EOLhyphen"/>nounced, having enough beſides: Se<g ref="char:EOLhyphen"/>venteen <hi>Conſonants</hi> are caſt off, for rea<g ref="char:EOLhyphen"/>ſons there aſſigned, and marked in the <hi>Abacus</hi> with an <hi>Obelisk;</hi> and 19 are retained for the uſe of Speech. And it is no wonder, if they who conſider<g ref="char:EOLhyphen"/>ed but 19, or about that number, could not tell how to Rank them in Equal <hi>Claſſes;</hi> whereas, in the <hi>Author</hi>'s <hi>Abacus,</hi> or Table of <hi>Letters,</hi> the whole number of <hi>Conſonants, viz.</hi> 36, will be found Equally ranged, with their proper Differences, and Productions: 19 of them being owned for the uſe of Speech, and the remaining 17 no<g ref="char:EOLhyphen"/>ted with a Mark of Rejection. For which the Reader is referred to the aforeſaid <hi>Treatiſe.</hi>
+               </p>
+               <p>Which <hi>Treatiſe</hi> lying not ſo plain for want of an <hi>Index;</hi> here is annexed a ſhort View of the <hi>Contents</hi> of it.</p>
+               <pb n="111" facs="tcp:47808:60"/>
+               <p>
+                  <table>
+                     <head>Contents to the Treatiſe <hi>Of the Ele<g ref="char:EOLhyphen"/>ments of Speech.</hi>
+                     </head>
+                     <row>
+                        <cell>
+                           <hi>OF</hi> Speech <hi>in General,</hi>
+                        </cell>
+                        <cell>Pag. 1.</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Of</hi> Letters <hi>in General,</hi>
+                        </cell>
+                        <cell>6</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Of the</hi> Alphabet; <hi>Form and Matter,</hi>
+                        </cell>
+                        <cell>16</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Of the</hi> Organs <hi>of Speech, and of the</hi> Material <hi>Part</hi>
+                        </cell>
+                        <cell>22</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Organs of the</hi> Formal <hi>Part,</hi>
+                        </cell>
+                        <cell>25</cell>
+                     </row>
+                     <row>
+                        <cell>Variety <hi>of Motions and Materials,</hi>
+                        </cell>
+                        <cell>32</cell>
+                     </row>
+                     <row>
+                        <cell>Conſonants; <hi>Their Differences,</hi>
+                        </cell>
+                        <cell>36</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>By</hi> Cloſe <hi>Appulſe P. B. M. T. D N.</hi>
+                        </cell>
+                        <cell>37</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>By</hi> Cloſe <hi>Appulſe K. G. Ng.</hi>
+                        </cell>
+                        <cell>38</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Scheme of</hi> Occluſe <hi>Conſonants,</hi>
+                        </cell>
+                        <cell>40</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>By</hi> Pervious <hi>Appulſe,</hi>
+                        </cell>
+                        <cell>ibid.</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>F.V. Th. Dh.</hi>
+                        </cell>
+                        <cell>41</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>S. Z. Sh. Zh.</hi>
+                        </cell>
+                        <cell>42</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>L. R.</hi>
+                        </cell>
+                        <cell>48</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Scheme of</hi> Pervious <hi>Conſonants,</hi>
+                        </cell>
+                        <cell>52</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Table of</hi> all <hi>Conſonants in uſe,</hi>
+                        </cell>
+                        <cell>53</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Explication of it,</hi>
+                        </cell>
+                        <cell>54</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Table</hi> univerſal <hi>of Conſonants,</hi>
+                        </cell>
+                        <cell>62</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Short Review,</hi>
+                        </cell>
+                        <cell>63</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Concerning H.</hi>
+                        </cell>
+                        <cell>67</cell>
+                     </row>
+                     <pb n="112" facs="tcp:47808:61"/>
+                     <row>
+                        <cell>
+                           <hi>Concerning Gh.</hi>
+                        </cell>
+                        <cell>Pag. 72</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Differences by peculiar</hi> Tone <hi>of ſeveral Nations,</hi>
+                        </cell>
+                        <cell>75</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Of</hi> Vowels,</cell>
+                        <cell>79</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Scheme of the</hi> whole <hi>Alphabet,</hi>
+                        </cell>
+                        <cell>96</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Of</hi> Accent <hi>and</hi> Emphaſis,</cell>
+                        <cell>98</cell>
+                     </row>
+                  </table>
+               </p>
+               <p>Copies of theſe <hi>Contents</hi> are Printed, and put into Mr. <hi>Luke Meredith</hi>'s hand, to be delivered <hi>gratis</hi> to any Poſſeſſor of the ſaid <hi>Treatiſe,</hi> Gentleman, or Bookſeller, to be prefixed to the Book.</p>
+            </div>
+            <div type="addendum">
+               <pb n="113" facs="tcp:47808:61"/>
+               <head>
+                  <hi>Addendum,</hi> as an <hi>Appendix</hi> to the Paragraph ending [—after the Moon and Sun's Month.] <hi>pag.</hi> 88. <hi>line</hi> 5.</head>
+               <p>It is here needfull to be better ex<g ref="char:EOLhyphen"/>plained, how the Moon is ſaid to be <hi>Behind,</hi> and how <hi>Before,</hi> the Sun; both which, or either of them, it may be underſtood to be.</p>
+               <p>The Moon goes round her Circuit above 12 times, whilſt the Sun paſ<g ref="char:EOLhyphen"/>ſeth once about his; And ſo many times <hi>overtakes;</hi> and alſo goes <hi>beyond</hi> the Sun. In every time, to keep her habitude to the Sun, ſhe goes more than a Round, having the whole Zo<g ref="char:EOLhyphen"/>diac, and about one of the 12 Signs more, to paſs after her Conjunction, before ſhe overtakes the Sun again. And if ſhe may be ſaid to <hi>overtake</hi> the Sun; ſhe may not improperly be ſaid to be <hi>behind</hi> him, untill ſhe over<g ref="char:EOLhyphen"/>take
+<pb n="114" facs="tcp:47808:62"/>him. If we look back upon the laſt paſs'd Conjunction; Then the Moon was joyned with the Sun, and moving ſwifter, is now got <hi>before</hi> him: If upon the next approaching Con<g ref="char:EOLhyphen"/>junction; Then the Moon is drawing towards him, and is <hi>behind</hi> him.</p>
+               <p>Thus, when the Epact is 1; the Moon, at the end of the year, will be 11 days in her progreſs, beyond or before the Sun, having got ſo far ſince the laſt Conjunction: But in re<g ref="char:EOLhyphen"/>ſpect of the next enſuing Conjunction, to which her Motion tends; ſhe will be found about 19 days <hi>behind</hi> the Sun. Thus ſhe is both <hi>before,</hi> and <hi>behind</hi> the Sun, 12 (or in ſome years 13) times in a year.</p>
+               <p>But ſince the <hi>Epact</hi> is properly the Number of Days, by which the Moon has finiſhed her 12 Months ſooner than the Sun his; or, (which amounts to the ſame) the Number of Days of the Age of the Moon, <hi>viz.</hi> which have
+<pb n="115" facs="tcp:47808:62"/>paſſed between her laſt Conjunction, and the Cloſe of the Sun's year, tho' in the Remainder or Complement of Days which reſpect her next enſuing Conjunction, ſhe be <hi>behind</hi> the Sun: yet, in the former Reſpect, ſhe muſt be ſaid to be <hi>before</hi> him. And there<g ref="char:EOLhyphen"/>fore it may be leſs exceptionable to Conſider her, as <hi>before</hi> the Sun, and Correct thoſe Paſſages which ſeem to look otherwiſe.</p>
+               <p>To explain this more clearly; If two run a Race, he that comes firſt to the Poſt, is prope<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ly ſaid to be <hi>be<g ref="char:EOLhyphen"/>fore</hi> the other: So the Moon begin<g ref="char:EOLhyphen"/>ning her 12 Months with the Sun, and arriving at the End of them 11 days before the Sun, is properly ſaid to be ſo much <hi>before</hi> him. And Conſe<g ref="char:EOLhyphen"/>quently (both of them continuing their Courſe of Revolutions) ſhe keeps on, throughout the whole enſuing year, 11 days before the Sun in her <hi>Synodic</hi> Chaſe, beſides her gaining, more.
+<pb n="116" facs="tcp:47808:63"/>over, about a Day in every Solar Month; <hi>i. e.</hi> 11 days in 12 Solar Months. Therefore, as was ſaid, <hi>p.</hi> 82. to accommodate the Courſe of the Month of the Moon, to that of the Sun, we add all along, to the day of the Solar month, the Number of thoſe days in the foregoing year, between the lateſt Conjunction of the Moon, and the End of the Sun's year, which are therefore called <hi>Epacts;</hi> together with the Number of Months from <hi>March.</hi>
+               </p>
+               <p>We might more properly reckon by the Day of the Moon's Month, as we do by that of the Sun; but then <hi>The Day of the Month</hi> would be an ambiguous term, relating as well to the Moon, as to the Sun. There<g ref="char:EOLhyphen"/>fore it is uſually termed <hi>The Age of the Moon,</hi> which is the ſame with the <hi>Day of her Month,</hi> but wholly avoids the ambiguity.</p>
+               <pb n="117" facs="tcp:47808:63"/>
+               <p>Now the <hi>Epacts</hi> varying every Year by progreſſion of 11; It is ſo, that the Greater the <hi>Epact,</hi> (<hi>i. e.</hi> the Age of the Moon, at the End of the Sun's year,) happens to be; ſo much Shorter will be the Remainder, or Complement of days to the next Con<g ref="char:EOLhyphen"/>junction: which ſhews the Reaſon of the Order of <hi>Epacts,</hi> pointed at by the Golden Number, in the firſt Co<g ref="char:EOLhyphen"/>lumn of the Church Calendar.</p>
+               <p>I take the Month of <hi>July</hi> there, in which to make Inſtance, becauſe it begins with the greateſt <hi>Epact</hi> 29, pointed at by the Golden Number 19: The Reader will find thoſe Columns in the ſaid Calendar very careleſly Printed; but they may be eaſily cor<g ref="char:EOLhyphen"/>rected by the Table foregoing, obſer<g ref="char:EOLhyphen"/>ving the order of thoſe Numbers.</p>
+               <p>When the Epact is 29 and Gol<g ref="char:EOLhyphen"/>den Number 19, as it was 1690, and will be 1709: The true Comple<g ref="char:EOLhyphen"/>ment to the next New-moon will be
+<pb n="118" facs="tcp:47808:64"/>but half a Day. So the Moon will be in her Change (not truly, but accord<g ref="char:EOLhyphen"/>ing to that Rule by the Golden Num<g ref="char:EOLhyphen"/>ber) the Firſt of <hi>July;</hi> and that will be the firſt day both of the Sun's, and of the Moon's Month, and you may reckon the Age of the Moon, by the Day of the Month, throughout that one Lunation. Otherwiſe the Moon's Age muſt be reconciled to the Day of the Month, by the Epacts, and Number of Months from <hi>March.</hi> The Solar month being made the Stan<g ref="char:EOLhyphen"/>dard, to which other Meaſures are re<g ref="char:EOLhyphen"/>duced.</p>
+               <p>When the Moon Changeth (accor<g ref="char:EOLhyphen"/>ding to the ſame account) on the ſe<g ref="char:EOLhyphen"/>cond day of <hi>July,</hi> as <hi>Anno Dom.</hi> 1698, the Epact will be 28, Golden Num<g ref="char:EOLhyphen"/>ber 8, and the Second of <hi>July</hi> will be the Firſt of the Moon. When on the Fourth of <hi>July,</hi> as <hi>Anno Domini</hi> 1687, 1706. Then the Epact is 26, and Golden Number 16; and the Fourth
+<pb n="119" facs="tcp:47808:64"/>of <hi>July,</hi> the Firſt of the Moon. And thus ſtill the Epacts decreaſe in order, as the Days of the month go forward. Now this ſhews plainly the Reaſon of the Regular progreſſive Order (by De<g ref="char:EOLhyphen"/>creaſe) of the Epacts; and of the ſeem<g ref="char:EOLhyphen"/>ing Diſorder of the Golden Number in that Calendar, throughout the Month of <hi>July:</hi> And in the ſame man<g ref="char:EOLhyphen"/>ner in all other Months; always al<g ref="char:EOLhyphen"/>lowing for the Differences in the Pla<g ref="char:EOLhyphen"/>ces of thoſe Numbers, which will ariſe from the Inequality of the Solar and Lunar months. From whence it is, That in the Year 1709, Epact 29, the Moon's Change will be allotted to <hi>Apr.</hi> 4. <hi>May</hi> 3. <hi>June</hi> 2. <hi>July</hi> 1, and 31. <hi>Auguſt</hi> 29. <hi>September</hi> 27, <hi>&amp;c.</hi>
+               </p>
+               <p>If you ask, Why, <hi>&amp;c. p.</hi> 88.</p>
+               <trailer>FINIS.</trailer>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="errata">
+            <pb n="120" facs="tcp:47808:65"/>
+            <head>CORRIGENDA.</head>
+            <p>PAg. 73. lin. 7. <hi>before or beyond</hi> the Sun. lin. ult. 11. days <hi>before</hi> him.</p>
+            <p>Pag. 87. l. 13, 14. of the Moon <hi>before</hi> the Sun, and conſequently a <hi>nearer</hi> approach.</p>
+            <p>Pag. 88. l. 20. againſt 19 Days of 29, <hi>or</hi> 30, in the Calendar.</p>
+            <p>l. 23. againſt them, <hi>and ſometimes an Eleventh day,</hi> viz. <hi>the Space between the end of one Cycle, and beginning of another.</hi>
+            </p>
+            <p>Pag. 95. l. 3. for <hi>Allowing,</hi> r. <hi>Abbridging.</hi>
+            </p>
+            <pb facs="tcp:47808:65"/>
+         </div>
+      </back>
+   </text>
+</TEI>
